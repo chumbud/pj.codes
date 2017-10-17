@@ -5,10 +5,14 @@ $p: #637ca5;
 $h: #1a324f;
 $secondary: #ffd2d2;
 
+$mobile "(max-width: 768px)";
 
 .about {
 	max-width: 535px;
 	margin-bottom: 80px;
+	@media #{$mobile} {
+		padding: 4vh;
+	}
 }
 .about-links {
 	display: block;
@@ -56,43 +60,43 @@ $secondary: #ffd2d2;
 		height: calc(100% + .625rem);
 		background-color: white;
 		border-radius: 6px;
-	} &:hover {
-		border: 1px solid rgba($main, .6);
-		&:before {
-			background-color: lighten(saturate($main, 20%), 35%);
+		} &:hover {
+			border: 1px solid rgba($main, .6);
+			&:before {
+				background-color: lighten(saturate($main, 20%), 35%);
+			}
 		}
 	}
-}
-.read-more {
-	font-size: .75rem;
-	position: relative;
-	&:before {
-		content:'';
-		position: absolute;
-		top: 35%;
-		right: -11px;
-		width: 4px;
-		height: 4px;
-		border-left: 1px solid $main;
-		border-bottom: 1px solid $main; 
-		transform: rotate(-45deg);
-		will-change: top, transform;
-		transition: top .2s ease, transform .2s ease-in-out;
-	}
-	&:hover {
+	.read-more {
+		font-size: .75rem;
+		position: relative;
 		&:before {
-			top: 45%;
+			content:'';
+			position: absolute;
+			top: 35%;
+			right: -11px;
+			width: 4px;
+			height: 4px;
+			border-left: 1px solid $main;
+			border-bottom: 1px solid $main; 
+			transform: rotate(-45deg);
+			will-change: top, transform;
+			transition: top .2s ease, transform .2s ease-in-out;
+		}
+		&:hover {
+			&:before {
+				top: 45%;
+			}
 		}
 	}
-}
-.read-more-section {
-	max-height: 0;
-	overflow: hidden;
-	display: block;
-	will-change: max-height, margin-bottom;
-	transition: max-height .2s ease-in-out, margin-bottom .2s ease-in-out;
-	margin: 0;
-}
-.read-more-section.open { margin-bottom: 1rem; max-height: 6rem !important; }
-.read-more-section.open + .read-more:before { transform: rotate(135deg); top: 44%; }
-.read-more-section.open + .read-more:hover:before { top: 35%; }
+	.read-more-section {
+		max-height: 0;
+		overflow: hidden;
+		display: block;
+		will-change: max-height, margin-bottom;
+		transition: max-height .2s ease-in-out, margin-bottom .2s ease-in-out;
+		margin: 0;
+	}
+	.read-more-section.open { margin-bottom: 1rem; max-height: 6rem !important; }
+	.read-more-section.open + .read-more:before { transform: rotate(135deg); top: 44%; }
+	.read-more-section.open + .read-more:hover:before { top: 35%; }

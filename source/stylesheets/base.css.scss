@@ -6,8 +6,13 @@ $p: #637ca5;
 $h: #1a324f;
 $secondary: #ffd2d2;
 
+$mobile: "(max-width: 768px)";
+
 :root {
 	font-size: 16px;
+	@media #{mobile} {
+		font-size: 14px;
+	}
 }
 ::selection {
 	background-color: $main;
@@ -65,7 +70,6 @@ e {
 	color: $h;
 }
 .container {
-	padding: 80px;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -79,6 +83,9 @@ e {
 	margin-top: 0px !important;
 	margin-bottom: 55px;
 	color: $main;
+	@media #{$mobile} {
+		padding: 8vh;
+	}
 }
 .icon {
 	margin-right: 12px;
@@ -101,6 +108,9 @@ e {
 	}
 	&:hover:before {
 		transform: translate(-3px, 0px);
+	}
+	@media #{$mobile} {
+		padding: 8vh;
 	}
 }
 footer {

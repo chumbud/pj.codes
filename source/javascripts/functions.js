@@ -7,7 +7,6 @@ $(document).ready(function() {
 
 	$('.thumbnail a').hover(function() {
 		$(this).closest('.project-list-item').find('.info a').addClass('hover');
-		console.log("hi");
 	}, function() {
 		$(this).closest('.project-list-item').find('.info a').removeClass('hover');
 	});
