@@ -13,7 +13,7 @@ work_items: true
 			<p><%= project.intro %></p>
 			<% if project.link %>
 			<div class="article-project-link">
-				<%= link_to(project.link_text, '#{project.link}', target: '_blank') %>
+				<%= link_to(project.link_text, project.link, target: '_blank') %>
 			</div>
 			<% end %>
 		</div>
@@ -22,8 +22,8 @@ work_items: true
 	<div id="article-extended">
 		<div class="article-gallery">
 			<!-- look up how to iterate through things -->
-			<% project.images do |image| %>
-			<img class="article-gallery-image" src="<%= project.images %>">
+			<% project.images.each_with_index do |image| %>
+			<%= image_tag("/images/#{project.image_path}/#{image}", { :class => "article-gallery-image", :"data-lity" => ""}) %>
 			<% end %>
 		</div>
 		<% if project.description %>

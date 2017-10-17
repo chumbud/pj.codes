@@ -22,12 +22,4 @@ $(document).ready(function() {
 
 		$('.read-more-section').toggleClass('open');
 	});
-	$('.article-gallery-image').on('click', function() {
-		if(!$(this).hasClass('expanded')) {
-			$(this).addClass('expanded');
-		} else {
-			$('.article-gallery-image').removeClass('expanded');
-			$(this).addClass('expanded');
-		}
-	});
 });

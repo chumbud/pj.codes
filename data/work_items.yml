@@ -11,7 +11,7 @@ projects:
     image_path: work/decorum
     thumbnail: decorum-thumbnail.jpg
     banner: decorum-banner.jpg
-    link: github.com #todo
+    link: github.com
     link_text: github repo
     images:
         - decorum-1.jpg

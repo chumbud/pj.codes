@@ -7,6 +7,8 @@ $img-bg: #e1ecff;
 
 #article {
 	p {
+		margin: 0 auto;
+		max-width: 700px;
 		font-size: 1.3125rem;
 	}
 }
@@ -49,15 +51,18 @@ $img-bg: #e1ecff;
 		background-color: $main;
 		font-weight: 700;
 		position: relative;
-		z-index: 3;
-		transform: translate(0px, 5px);
+		display: inline-block;
+		top: 0px;
 		transition: background-color .2s ease-in-out, 
 						color .2s ease-in-out,
-						transform .2s ease-in-out;
+						top .2s ease-in-out;
 		&:hover {
 			background-color: #0f4191;
 			color: $secondary;
-			transform: translate(0, -5px);
+			top: 5px;
+			&:before {
+				top: 0px;
+			}
 		}
 		&:before {
 			content: '';
@@ -69,27 +74,36 @@ $img-bg: #e1ecff;
 			border-radius: 3px;
 			position: absolute;
 			z-index: -1;
+			transition: top .2s ease-in-out; 
 		}
 	}
 }
 #article-extended {
-	margin: 50px;
+	margin: 50px 0px;
 	width: 100%;
 	.article-gallery {
+		margin: 50px 0px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: center;
 		max-height: 400px;
 		.article-gallery-image {
 			cursor: pointer;
-			height: 100%;
-			width: 100%;
-			.expanded {
+			will-change: flex-shrink;
+			margin-right: 30px;
+			transition: opacity .2s ease-in-out, flex-shrink .2s ease-in-out;
+			&.expanded {
 				width: 100%;
 				display: block;
 				margin: 0;
+				flex-shrink: 0;
 			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		.article-gallery-image:hover {
+			opacity: .8;
 		}
 	}
 }
