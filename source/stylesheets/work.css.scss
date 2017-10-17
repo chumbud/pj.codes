@@ -1,0 +1,151 @@
+@import "base.css";
+
+$main: #2966ff;
+$p: #637ca5;
+$h: #1a324f;
+$secondary: #ffd2d2;
+
+.work {
+	margin-top: 80px;
+}
+.topper > * {
+	display: block;
+	width: 105px;
+	margin: 15px auto;
+	text-align: center;
+}
+.project-list {
+	.project-list-item {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: flex-start;
+		margin: 0 auto 300px;
+		max-width: 1027px;
+		.thumbnail { 
+			float: left;
+			.wrapper {
+				float: left;
+				max-width: 800px;
+			}
+			a {
+				transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+				position: relative;
+				display: inline-block;
+				line-height: 0;
+				margin: 30px;
+				will-change: transform, box-shadow;
+				box-shadow: 0px 0px 15px 0px rgba(246, 140, 140, 0.2);
+				&:hover {
+					transform: translate(0px, 3px);
+					box-shadow: 0px 0px 3px 0px rgba(246, 140, 140, 0.7);
+					&:before {
+						transform: translate(0px, -3px) scale(1.03);
+					}
+				}
+				&:before {
+					content:'';
+					background-image:  url('../images/assets/dot-grid.svg');
+					background-size: cover;
+					height: calc(100% + 60px);
+					width: calc(100% + 60px);
+					top: -30px;
+					left: -30px;
+					transform: scale(1);
+					will-change: transform;
+					position: absolute;
+					z-index: -1;
+					transition: transform .2s ease-in-out;
+				}
+			}
+			img {
+				max-width: 100%;
+			}
+
+		}
+		.info {
+			.wrapper {
+				max-width: 320px;
+				margin-right: 30px;
+				position: relative;
+				float: right;
+			}
+			a {
+				max-width: 320px;
+			}
+			.number {
+				font-size: 11.625rem;
+				font-family: 'PT Mono';
+				color: $secondary;
+				opacity: .5;
+				z-index: -1;
+			}
+			h3 {
+				color: $p;
+				font-size: .75rem;
+				margin: 0px;
+				bottom: 0px;
+				margin-bottom: 10px;
+			}
+			h2 {
+				color: $h;
+				font-size: 2.25rem;
+				margin: 0px;
+				line-height: 120%;
+				display: inline-block;
+			}
+			.title-head {
+				display: block;
+				position: relative;
+				&:before {
+					content: "0" attr(data-num);
+					font-size: 11.625rem;
+					font-family: 'PT Mono';
+					color: $secondary;
+					opacity: .5;
+					z-index: -1;
+					position: absolute;
+					top: -180%;
+					line-height: 100%;
+				}
+				a {
+					h2 {
+						transition: color .2s ease-in-out;
+					}
+					&:hover h2 {
+						color: $main;
+					}
+				}
+			}
+
+		}
+		&:nth-child(even) {
+			.info {
+				order: 2;
+				margin: 0px 0px 0px 40px;
+				* {
+					text-align: left;
+				}
+			}
+			.thumbnail {
+				p, .title-head {
+					text-align: right;
+				}
+			}
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+.thumbnail .hover{ 
+	transform: translate(0px, 3px);
+	box-shadow: 0px 0px 3px 0px rgba(103,117,168,0.7) !important;
+	&:before {
+		transform: translate(0px, -3px) scale(1.03) !important;
+	}
+}
+.info .hover h2 {
+	color: $main !important;
+}

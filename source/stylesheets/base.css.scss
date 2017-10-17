@@ -1,0 +1,111 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Mono';
+@import 'https://rsms.me/interface/interface.css';
+
+$main: #2966ff;
+$p: #637ca5;
+$h: #1a324f;
+$secondary: #ffd2d2;
+
+:root {
+	font-size: 16px;
+}
+::selection {
+	background-color: $main;
+	color: white;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Interface', sans-serif;
+	color: $p;
+	text-rendering: optimizeLegibility;
+}
+body {
+	border-top: 5px solid $secondary;
+}
+body:before {
+	content: url("/../images/assets/grid.svg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+h1 {
+	font-family: 'PT Mono', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: $main;
+}
+p, a, h1, h2, h3, span {
+	line-height: 150%;
+}
+p {
+	margin: 0;
+	margin-bottom: 1rem;
+}
+p:last-child {
+	margin-bottom: 1.5rem;
+}
+h3 {
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 2.25rem 0;
+	color: $h;
+	font-size: 1.3125rem;
+	overflow: hidden;
+}
+h4 {
+	color: $h;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+e {
+	color: $h;
+}
+.container {
+	padding: 80px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.divider {
+	background-color: $secondary;
+	height: 4px;
+	width: 35px;
+	margin: 1.5rem 0px;
+}
+.name { 
+	margin-top: 0px !important;
+	margin-bottom: 55px;
+	color: $main;
+}
+.icon {
+	margin-right: 12px;
+	position: relative;
+	top: 2px;
+}
+.back-button {
+	font-size: 0.875rem;
+	line-height: 100%;
+	width: calc(100% + 3px);
+	padding-left: 3px;
+	&:before {
+		content:url('/images/assets/back-arrow.svg');
+		left: 0;
+		top: 0;
+		display: inline-block;
+		padding-right: 10px;
+		will-change: transform;
+		transition: transform .2s ease-in-out;
+	}
+	&:hover:before {
+		transform: translate(-3px, 0px);
+	}
+}
+footer {
+	text-align: center;
+	a:hover {
+		text-decoration: underline;
+	}
+}

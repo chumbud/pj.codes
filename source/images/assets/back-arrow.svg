@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.41421" height="10.38807" viewBox="0 0 17.41421 10.38807">
+  <title>back-arrow</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <line x1="1.41421" y1="5.19404" x2="17.41421" y2="5.19404" fill="none" stroke="#456de7" stroke-miterlimit="10" stroke-width="2"/>
+      <polyline points="5.901 9.681 1.414 5.194 5.901 0.707" fill="none" stroke="#456de7" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

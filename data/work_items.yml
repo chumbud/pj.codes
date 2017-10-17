@@ -1,0 +1,74 @@
+projects:
+  #Decorum
+  - name: Decorum
+    subhead: Product
+    weight: 1
+    url: decorum
+    roles: Product Design
+    tiny_description: A thread based messaging client made for organizing and accessing conversations.
+    intro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    description: <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    image_path: work/decorum
+    thumbnail: decorum-thumbnail.jpg
+    banner: decorum-banner.jpg
+    link: github.com #todo
+    link_text: github repo
+    images:
+        - decorum-1.jpg
+        - decorum-2.jpg 
+        - decorum-3.jpg
+  #VH1
+  - name: VH1 Digital
+    subhead: Network
+    weight: 2
+    url: vh1
+    roles: Digital Design, Animation, Web Design, Product Design
+    tiny_description: A network focused around pop culture, music and entertainment.
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    image_path: work/vh1
+    banner: vh1-banner.jpg
+    thumbnail: vh1-thumbnail.jpg
+  #Logo
+  - name: LogoTV Digital
+    subhead: Network
+    weight: 3
+    url: logo
+    roles: Digital Design, Web Design
+    tiny_description: The original home of LGBTQA+ related programming and birthplace of the hit-show RuPaul's Drag Race.
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    image_path: work/logo
+    banner: logo-banner.jpg
+    thumbnail: logo-thumbnail.jpg
+  #Anthologist
+  - name: the Anthologist
+    subhead: Publication
+    weight: 4
+    url: the-anthologist
+    roles: Brand Design, Publication Design, Web Design 
+    tiny_description: Rutgers University's literary magazine that publishes a collection of curated and reviewed written and visual work contributed by the Rutgers student body. 
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    image_path: work/the-anthologist
+    banner: anthologist-banner.jpg
+    thumbnail: the-anthologist-thumbnail.jpg
+  #HackRU
+  - name: HackRU
+    subhead: Hackathon
+    weight: 5
+    url: hackru
+    roles: Brand Design, Web Design, Print Design
+    tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    image_path: work/hackru
+    banner: hackru-banner.jpg
+    thumbnail: hackru-thumbnail.jpg
+  #Anchorage
+  - name: Anchorage
+    subhead: Product
+    weight: 6
+    url: anchorage
+    roles: Product Design
+    tiny_description: A lightweight browser agnostic dashboard for your new-tab page. Made during UPenn's 36-hour hackathon.
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    image_path: work/anchorage
+    banner: anchorage-banner.jpg
+    thumbnail: anchorage-thumbnail.jpg

@@ -1,0 +1,26 @@
+<div class="project-list"> 
+	<% projects.each do |project| %>
+	<article class="project-list-item pl-<%= project.url %>">
+		<div class="info">
+			<div class="wrapper">
+				<div data-num=<%= project.weight%> class="title-head">
+
+					<% link_to("/#{path}/#{project.url}.html") do %> 
+					<h2><%= project.name %></h2>
+					<% end %>
+
+					<h3><%= project.subhead %></h3>
+				</div>
+				<p><%= project.tiny_description%></p>
+			</div>
+		</div>
+		<div class="thumbnail">
+				<div class="wrapper">
+				<% link_to("/#{path}/#{project.url}.html") do %> 
+				<%= image_tag("#{project.image_path}/#{project.thumbnail}", :alt => "") %>
+				<% end %>
+			</div>
+		</div>
+	</article>
+	<% end %>
+</div>
