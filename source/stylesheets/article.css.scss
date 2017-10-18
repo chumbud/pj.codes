@@ -5,6 +5,8 @@ $h: #1a324f;
 $secondary: #ffd2d2;
 $img-bg: #e1ecff;
 
+$mobile: "(max-width: 768px)";
+
 #article {
 	p {
 		margin: 0 auto;
@@ -19,11 +21,16 @@ $img-bg: #e1ecff;
 	align-items: center;
 	.article-banner {
 		width: 100%;
-		height: 400px;
-		background-color: $img-bg
+		max-height: 400px;
+		overflow: hidden;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
 	}
 	.article-header-content {
 		max-width: 700px;
+		margin: 50px auto 30px;
 		h1 {
 			font-size: 3.4375rem;
 			font-weight: 500;
@@ -35,7 +42,7 @@ $img-bg: #e1ecff;
 			font-size: 1rem;
 			text-transform: uppercase;
 			letter-spacing: 2px;
-			margin: 0;
+			margin: 5px 0 0 0;
 		}
 	}
 }
@@ -54,8 +61,8 @@ $img-bg: #e1ecff;
 		display: inline-block;
 		top: 0px;
 		transition: background-color .2s ease-in-out, 
-						color .2s ease-in-out,
-						top .2s ease-in-out;
+		color .2s ease-in-out,
+		top .2s ease-in-out;
 		&:hover {
 			background-color: #0f4191;
 			color: $secondary;
@@ -87,19 +94,21 @@ $img-bg: #e1ecff;
 		flex-direction: row;
 		align-items: center;
 		max-height: 400px;
+		@media #{$mobile} {
+			flex-direction: column;
+			max-height: none;
+		}
 		.article-gallery-image {
 			cursor: pointer;
 			will-change: flex-shrink;
 			margin-right: 30px;
 			transition: opacity .2s ease-in-out, flex-shrink .2s ease-in-out;
-			&.expanded {
-				width: 100%;
-				display: block;
-				margin: 0;
-				flex-shrink: 0;
-			}
 			&:last-child {
 				margin-right: 0;
+			}
+			@media #{$mobile} {
+				margin: 0 0 30px;
+				width: 100%;
 			}
 		}
 		.article-gallery-image:hover {

@@ -5,14 +5,10 @@ $p: #637ca5;
 $h: #1a324f;
 $secondary: #ffd2d2;
 
-$mobile "(max-width: 768px)";
+$mobile: "(max-width: 768px)";
 
 .about {
 	max-width: 535px;
-	margin-bottom: 80px;
-	@media #{$mobile} {
-		padding: 4vh;
-	}
 }
 .about-links {
 	display: block;

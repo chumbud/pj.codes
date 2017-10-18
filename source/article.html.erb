@@ -5,7 +5,9 @@ work_items: true
 <section id="article">
 	<h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3>
 	<header id="article-header">
-		<div class="article-banner" style="background-image:url('/images/<%=project.image_path %>/<%= project.banner %>');"></div>
+		<div class="article-banner">
+			<img src="/images/<%=project.image_path %>/<%= project.banner %>">
+		</div>
 		<div class="article-header-content">
 			<h1><%= project.name %></h1>
 			<h2><%= project.subhead %> - Role(s): <%= project.roles %></h2>

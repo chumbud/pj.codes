@@ -10,8 +10,8 @@ $mobile: "(max-width: 768px)";
 
 :root {
 	font-size: 16px;
-	@media #{mobile} {
-		font-size: 14px;
+	@media #{$mobile} {
+		font-size: 18px;
 	}
 }
 ::selection {
@@ -72,6 +72,10 @@ e {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 80px;
+	@media #{$mobile} {
+		padding: 4vh;
+	}
 }
 .divider {
 	background-color: $secondary;
@@ -83,9 +87,6 @@ e {
 	margin-top: 0px !important;
 	margin-bottom: 55px;
 	color: $main;
-	@media #{$mobile} {
-		padding: 8vh;
-	}
 }
 .icon {
 	margin-right: 12px;
@@ -108,9 +109,6 @@ e {
 	}
 	&:hover:before {
 		transform: translate(-3px, 0px);
-	}
-	@media #{$mobile} {
-		padding: 8vh;
 	}
 }
 footer {

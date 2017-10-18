@@ -11,8 +11,8 @@ projects:
     image_path: work/decorum
     thumbnail: decorum-thumbnail.jpg
     banner: decorum-banner.jpg
-    link: github.com
-    link_text: github repo
+    link: https://www.figma.com/proto/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum?scaling=contain&node-id=1%3A4
+    link_text: See On Figma
     images:
         - decorum-1.jpg
         - decorum-2.jpg 
