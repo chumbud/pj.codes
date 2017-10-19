@@ -1,3 +1,4 @@
+#remember to give credit to jay, max, yujin
 projects:
   #Decorum
   - name: Decorum
@@ -6,8 +7,8 @@ projects:
     url: decorum
     roles: Product Design
     tiny_description: A thread based messaging client made for organizing and accessing conversations.
-    intro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-    description: <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    intro: Messaging typically is a single pipeline of information being exchanged back-and-forth. Other messaging clients offer features to create extra spaces where these communications can be categorized. However, when in the moment of conversation with multiple people, this conversation can split into multiple discussions. Keeping track of these conversations in one stream is difficult, especially for archival purposes. This is where Decorum seeks to offer a solution.
+    description: <p>Decorum offers the typical structure of an IRC client or forum, however the structure doesn't stop at the conversations within a general topic</p>
     image_path: work/decorum
     thumbnail: decorum-thumbnail.jpg
     banner: decorum-banner.jpg
@@ -24,7 +25,7 @@ projects:
     url: vh1
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: A network focused around pop culture, music and entertainment.
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    description: During my time at VH1, I was given the opportunity to work on a breadth of projects that ranged from an instagram campaigns promoting new shows to web projects supplementing show content. 
     image_path: work/vh1
     banner: vh1-banner.jpg
     thumbnail: vh1-thumbnail.jpg
@@ -35,7 +36,7 @@ projects:
     url: logo
     roles: Digital Design, Web Design
     tiny_description: The original home of LGBTQA+ related programming and birthplace of the hit-show RuPaul's Drag Race.
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    description: While working for VH1, I also gave some design support to the LogoTV network with social media campaigns and web projects.
     image_path: work/logo
     banner: logo-banner.jpg
     thumbnail: logo-thumbnail.jpg
@@ -46,7 +47,10 @@ projects:
     url: the-anthologist
     roles: Brand Design, Publication Design, Web Design 
     tiny_description: Rutgers University's literary magazine that publishes a collection of curated and reviewed written and visual work contributed by the Rutgers student body. 
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be binded and reproduced in a magazine.
+    description: <p>Joining the Anthologist allowed me the priviledge to work with many talented writers and artists. Taking on the Anthologist meant creating promotional material, creating and maintaining the site as well as designing the magazine for publishing every semester.</p><p class="center">Here's a select collection of works from my time at the Anthologist:</p>
+    link: #issuu link
+    link_text: See on Issuu
     image_path: work/the-anthologist
     banner: anthologist-banner.jpg
     thumbnail: the-anthologist-thumbnail.jpg
@@ -57,7 +61,8 @@ projects:
     url: hackru
     roles: Brand Design, Web Design, Print Design
     tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    intro: Rutgers University's hackathon held every semester. The event holds over 1000 students from around the nation, giving students 24 hours to build whatever they want with the skills they bring.
+    description: I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. 
     image_path: work/hackru
     banner: hackru-banner.jpg
     thumbnail: hackru-thumbnail.jpg
@@ -67,8 +72,18 @@ projects:
     weight: 6
     url: anchorage
     roles: Product Design
+    contributors:
+        -   name: Maxwell Huang-Hobbs
+            portfolio: http://huang-hobbs.co/
+        -   name: Jeffrey Tao
+            portfolio: http://jefftao.com/
+        -   name: William Saulnier
+            portfolio: http://williamsaulnier.com/
     tiny_description: A lightweight browser agnostic dashboard for your new-tab page. Made during UPenn's 36-hour hackathon.
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+    intro: A modular, grid based homepage consisting of widgets that are highly customizable. Created with a team of two other developers at the 36-hour hackathon, PennApps Fall 2015.
+    description: <p>By the end of the hackathon, my team and I had delivered a prototype with a few functional widgets and working customization functions. The prototype allowed for color customizability of widget UI and custom backgrounds. The widgets themselves also had the ability to be placed anywhere within a grid based system that organized the placement of the widgets. Widgets could follow a 2x2, 2x1 or 1x1 size within the grid system, these units being user specified as well.</p><p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
     image_path: work/anchorage
     banner: anchorage-banner.jpg
     thumbnail: anchorage-thumbnail.jpg
+    link: https://github.com/EnigmaSM/anchorage
+    link_text: Github Repo

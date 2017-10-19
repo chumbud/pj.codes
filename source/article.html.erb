@@ -20,17 +20,17 @@ work_items: true
 			<% end %>
 		</div>
 	</header>
-	<% if project.images %>
+	<% if project.description %>
 	<div id="article-extended">
+		<% if project.images %>
 		<div class="article-gallery">
 			<!-- look up how to iterate through things -->
 			<% project.images.each_with_index do |image| %>
 			<%= image_tag("/images/#{project.image_path}/#{image}", { :class => "article-gallery-image", :"data-lity" => ""}) %>
 			<% end %>
 		</div>
-		<% if project.description %>
-		<%= project.description %>
 		<% end %>
+		<%= project.description %>
 	</div>
 	<% end %>
 </section>
