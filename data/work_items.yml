@@ -25,7 +25,8 @@ projects:
     url: vh1
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: A network focused around pop culture, music and entertainment.
-    description: During my time at VH1, I was given the opportunity to work on a breadth of projects that ranged from an instagram campaigns promoting new shows to web projects supplementing show content. 
+    intro: During my time at VH1, I was given the opportunity to work on a breadth of projects that ranged from an instagram campaigns promoting new shows to web projects supplementing show content.
+    description: 
     image_path: work/vh1
     banner: vh1-banner.jpg
     thumbnail: vh1-thumbnail.jpg
@@ -36,7 +37,8 @@ projects:
     url: logo
     roles: Digital Design, Web Design
     tiny_description: The original home of LGBTQA+ related programming and birthplace of the hit-show RuPaul's Drag Race.
-    description: While working for VH1, I also gave some design support to the LogoTV network with social media campaigns and web projects.
+    intro: While working for VH1, I also gave some design support to the LogoTV network with social media campaigns and web projects.
+    description:
     image_path: work/logo
     banner: logo-banner.jpg
     thumbnail: logo-thumbnail.jpg
