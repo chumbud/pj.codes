@@ -1,4 +1,3 @@
-#remember to give credit to jay, max, yujin
 projects:
   #Decorum
   - name: Decorum
@@ -6,6 +5,13 @@ projects:
     weight: 1
     url: decorum
     roles: Product Design
+    contributors:
+        -   name: Jeffrey Tao
+            portfolio: http://jefftao.com/
+        -   name: Yujin Ariza
+            portfolio: http://yujinariza.com/
+        -   name: Maxwell Huang-Hobbs
+            portfolio: http://huang-hobbs.co/
     tiny_description: A thread based messaging client made for organizing and accessing conversations.
     intro: Messaging typically is a single pipeline of information being exchanged back-and-forth. Other messaging clients offer features to create extra spaces where these communications can be categorized. However, when in the moment of conversation with multiple people, this conversation can split into multiple discussions. Keeping track of these conversations in one stream is difficult, especially for archival purposes. This is where Decorum seeks to offer a solution.
     description: <p>Decorum offers the typical structure of an IRC client or forum, however the structure doesn't stop at the conversations within a general topic</p>
@@ -64,7 +70,7 @@ projects:
     roles: Brand Design, Web Design, Print Design
     tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
     intro: Rutgers University's hackathon held every semester. The event holds over 1000 students from around the nation, giving students 24 hours to build whatever they want with the skills they bring.
-    description: I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. 
+    description: <p>I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. </p>
     image_path: work/hackru
     banner: hackru-banner.jpg
     thumbnail: hackru-thumbnail.jpg

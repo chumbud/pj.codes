@@ -13,6 +13,14 @@ work_items: true
 			<h2><%= project.subhead %> - Role(s): <%= project.roles %></h2>
 			<div class="divider"></div>
 			<p><%= project.intro %></p>
+			<% if project.contributors %>
+			<div class="contributors">
+				<p>Contributors:</p>
+				<% project.contributors.each_with_index do |contributor| %>
+				<%= link_to(contributor.name, contributor.portfolio, class: "tiny-btn", target: '_blank') %>
+				<% end %>
+			</div>
+			<% end %>
 			<% if project.link %>
 			<div class="article-project-link">
 				<%= link_to(project.link_text, project.link, target: '_blank') %>
@@ -24,9 +32,10 @@ work_items: true
 	<div id="article-extended">
 		<% if project.images %>
 		<div class="article-gallery">
-			<!-- look up how to iterate through things -->
 			<% project.images.each_with_index do |image| %>
-			<%= image_tag("/images/#{project.image_path}/#{image}", { :class => "article-gallery-image", :"data-lity" => ""}) %>
+			<div class="article-gallery-image">
+				<%= image_tag("/images/#{project.image_path}/#{image}", { :"data-lity" => ""}) %>
+			</div>
 			<% end %>
 		</div>
 		<% end %>
