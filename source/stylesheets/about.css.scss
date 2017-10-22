@@ -93,6 +93,6 @@ $mobile: "(max-width: 768px)";
 		transition: max-height .2s ease-in-out, margin-bottom .2s ease-in-out;
 		margin: 0;
 	}
-	.read-more-section.open { margin-bottom: 1rem; max-height: 6rem !important; }
+	.read-more-section.open { margin-bottom: 1rem; max-height: 25rem !important; }
 	.read-more-section.open + .read-more:before { transform: rotate(135deg); top: 44%; }
 	.read-more-section.open + .read-more:hover:before { top: 35%; }

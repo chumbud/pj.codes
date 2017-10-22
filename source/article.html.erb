@@ -1,7 +1,6 @@
 ---
 work_items: true
 ---
-
 <section id="article">
 	<h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3>
 	<header id="article-header">
@@ -14,7 +13,7 @@ work_items: true
 			<div class="divider"></div>
 			<p><%= project.intro %></p>
 			<% if project.contributors %>
-			<div class="contributors">
+			<div class="link-section">
 				<p>Contributors:</p>
 				<% project.contributors.each_with_index do |contributor| %>
 				<%= link_to(contributor.name, contributor.portfolio, class: "tiny-btn", target: '_blank') %>
@@ -28,18 +27,41 @@ work_items: true
 			<% end %>
 		</div>
 	</header>
-	<% if project.description %>
+	<% if project.sections %>
 	<div id="article-extended">
-		<% if project.images %>
-		<div class="article-gallery">
-			<% project.images.each_with_index do |image| %>
-			<div class="article-gallery-image">
-				<%= image_tag("/images/#{project.image_path}/#{image}", { :"data-lity" => ""}) %>
+		<% project.sections.each_with_index do |section| %>
+			<% if section.image %>
+			<div class="article-image">				
+				<%= image_tag("/images/#{project.image_path}/#{section.image}", { :"data-lity" => ""}) %>
 			</div>
 			<% end %>
-		</div>
+			<div class="article-text">
+				<%= section.text %>
+			</div>
+			<% if section.links %>
+			<div class="link-section">
+				<% section.links.each_with_index do |link| %>
+				<%= link_to(link.link_text, link.link, class: "tiny-btn", target: '_blank') %>
+				<% end %>
+			</div>
+			<% end %>
+			<% if section.gallery %>
+				<% section.gallery.each_with_index do |gallery| %>
+				<div class="article-gallery">
+					<% if gallery.header %>
+					<h2><%= gallery.header%></h2>
+					<% end %>
+					<div class="article-gallery-container">
+						<% gallery.images.each_with_index do |image| %>
+						<div class="article-gallery-image">
+							<%= image_tag("/images/#{project.image_path}/#{image.image_thumb}", { :"data-lity" => "", :"data-lity-target" => "/images/#{project.image_path}/#{image.image_url}"}) %>
+						</div>
+						<% end %>
+					</div>
+				</div>
+				<% end %>
+			<% end %>
 		<% end %>
-		<%= project.description %>
 	</div>
 	<% end %>
 </section>

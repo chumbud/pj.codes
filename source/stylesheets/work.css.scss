@@ -33,6 +33,9 @@ $desktop: "(min-width: 769px)";
 			flex-direction: column;
 			margin-bottom: 100px;
 		}
+		&:nth-child(2) * {
+			cursor: url(/images/assets/cursor.svg), auto;
+		}
 		.thumbnail { 
 			float: left;
 			.wrapper {

@@ -2,7 +2,7 @@
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :autoprefixer do |prefix|
-  prefix.browsers = ["last 2 versions", "Firefox > 20"]
+	prefix.browsers = ["last 2 versions", "Firefox > 20"]
 end
 
 # Layouts
@@ -51,8 +51,8 @@ activate :livereload
 # end
 
 app.data.work_items.projects.each do |project|
-  proxy "/work/#{project.url}.html", "/article.html", locals: { 
-    project: project,
-    url: "work"
-  }
+	proxy "/work/#{project.url}.html", "/article.html", locals: { 
+		project: project,
+		url: "work"
+	}
 end

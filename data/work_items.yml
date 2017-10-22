@@ -14,50 +14,131 @@ projects:
             portfolio: http://huang-hobbs.co/
     tiny_description: A thread based messaging client made for organizing and accessing conversations.
     intro: Messaging typically is a single pipeline of information being exchanged back-and-forth. Other messaging clients offer features to create extra spaces where these communications can be categorized. However, when in the moment of conversation with multiple people, this conversation can split into multiple discussions. Keeping track of these conversations in one stream is difficult, especially for archival purposes. This is where Decorum seeks to offer a solution.
-    description: <p>Decorum offers the typical structure of an IRC client or forum, however the structure doesn't stop at the conversations within a general topic</p>
     image_path: work/decorum
     thumbnail: decorum-thumbnail.jpg
     banner: decorum-banner.jpg
     link: https://www.figma.com/proto/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum?scaling=contain&node-id=1%3A4
     link_text: See On Figma
-    images:
-        - decorum-1.jpg
-        - decorum-2.jpg 
-        - decorum-3.jpg
-  #VH1
-  - name: VH1 Digital
+    sections:
+        -   text: <p>Our friend group spends talks to each other daily through Slack. We have our Slack channels that we use to keep our convsations relevant, but even then we'd find ourselves talking over each other from multiple conversations taking place in a single channel.</p><p>This is when one of our friends started working on an MVP for a side-project to try and help that which is how this project was started.</p><p>After showing me and a few other friends our the MVP and pitching us the idea we were totally on board to help him.</p><h2>The Problem</h2><div class="divider"></div><p>Essentially, what we wanted to try and offer was a way to branch discussions into their own spaces so that a certain organization could be maintained in a conversation with many participants. </p>
+            image: decorum-process.jpg
+        -   text: <h2>Process</h2><div class="divider"></div><p>From a product standpoint, the problem that had to be solved was creating a means to handle multi-threaded conversations and organizing them. Then integrating that solution into a tradition chat interface. I wish I saved some of the original sketches, instead I have some of the original Figma mocks of some early prototypes. </p>
+            links: 
+                -   link: https://www.figma.com/file/PRdErs08OPjZ5LffIltYuaQ4/Decorum-v.10
+                    link_text: Decorum Protoype 1
+                -   link: https://www.figma.com/file/cQwZXerwC2wMSU6dJMQAg4p3/Decorum-v.15
+                    link_text: Decorum Protoype 2
+                -   link: https://www.figma.com/file/ciStDX1Mead5fvoLnA03iSEa/Decorum-v.20
+                    link_text: Decorum Protoype 3
+  #VH1/Logo
+  - name: VH1 & LogoTV Digital
     subhead: Network
     weight: 2
     url: vh1
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: A network focused around pop culture, music and entertainment.
     intro: During my time at VH1, I was given the opportunity to work on a breadth of projects that ranged from an instagram campaigns promoting new shows to web projects supplementing show content.
-    description: 
-    image_path: work/vh1
-    banner: vh1-banner.jpg
-    thumbnail: vh1-thumbnail.jpg
-  #Logo
-  - name: LogoTV Digital
-    subhead: Network
-    weight: 3
-    url: logo
-    roles: Digital Design, Web Design
-    tiny_description: The original home of LGBTQA+ related programming and birthplace of the hit-show RuPaul's Drag Race.
-    intro: While working for VH1, I also gave some design support to the LogoTV network with social media campaigns and web projects.
-    description:
-    image_path: work/logo
-    banner: logo-banner.jpg
-    thumbnail: logo-thumbnail.jpg
+    sections:
+        -   text: <p>Below is a few selected works from my time there.</p>
+        -   gallery:
+            -   header: RuPaul's Drag Race
+                images:
+                    -   image_url: rupaul-final-four-social-peppermint.jpg
+                        image_thumb: thumbnails/rupaul-final-four-social-peppermint.jpg
+                    -   image_url: rupaul-final-four-social-sasha.jpg
+                        image_thumb: thumbnails/rupaul-final-four-social-sasha.jpg
+                    -   image_url: rupaul-final-four-social-shea.jpg
+                        image_thumb: thumbnails/rupaul-final-four-social-shea.jpg
+                    -   image_url: rupaul-final-four-social-trinity.jpg
+                        image_thumb: thumbnails/rupaul-final-four-social-trinity.jpg
+                    -   image_url: sasha-1024x512.jpg
+                        image_thumb: thumbnails/sasha-1024x512-thumbnail.jpg
+                    -   image_url: ru-newyears-first-draft.jpg
+                        image_thumb: thumbnails/ru-newyears-first-draft-thumbnail.jpg
+                    -   image_url: sasha-velour-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/sasha-velour-instagram-1080x1080.jpg
+                    -   image_url: aja-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/aja-instagram-1080x1080.jpg
+                    -   image_url: cynthia-lee-fontaine-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/cynthia-lee-fontaine-instagram-1080x1080.jpg
+                    -   image_url: charlie-hides-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/charlie-hides-instagram-1080x1080.jpg
+                    -   image_url: eureka-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/eureka-instagram-1080x1080.jpg
+                    -   image_url: farrah-moan-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/farrah-moan-instagram-1080x1080.jpg
+                    -   image_url: jaymes-mansfield-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/jaymes-mansfield-instagram-1080x1080.jpg
+                    -   image_url: kimora-blac-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/kimora-blac-instagram-1080x1080.jpg
+                    -   image_url: nina-bonina-brown-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/nina-bonina-brown-instagram-1080x1080.jpg
+                    -   image_url: peppermint-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/peppermint-instagram-1080x1080.jpg
+                    -   image_url: shea-coulee-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/shea-coulee-instagram-1080x1080.jpg
+                    -   image_url: trinity-taylor-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/trinity-taylor-instagram-1080x1080.jpg
+                    -   image_url: alexis-michelle-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/alexis-michelle-instagram-1080x1080.jpg
+                    -   image_url: valentina-instagram-1080x1080.jpg
+                        image_thumb: thumbnails/valentina-instagram-1080x1080.jpg
+            -   header: Scared Famous
+                images:
+                    -   image_url: scared-famous-poster-alaska.jpg
+                        image_thumb: thumbnails/scared-famous-poster-alaska.jpg
+                    -   image_url: scared-famous-poster-don.jpg
+                        image_thumb: thumbnails/scared-famous-poster-don.jpg
+                    -   image_url: scared-famous-poster-erica.jpg
+                        image_thumb: thumbnails/scared-famous-poster-erica.jpg
+                    -   image_url: scared-famous-poster-eva.jpg
+                        image_thumb: thumbnails/scared-famous-poster-eva.jpg
+                    -   image_url: scared-famous-poster-nikki.jpg
+                        image_thumb: thumbnails/scared-famous-poster-nikki.jpg
+                    -   image_url: scared-famous-poster-safaree.jpg
+                        image_thumb: thumbnails/scared-famous-poster-safaree.jpg
+            -   header: Logo Social
+                images:
+                    -   image_url: lettertomyself-hero.jpg
+                        image_thumb: thumbnails/lettertomyself-hero.jpg
+                    -   image_url: lettertomyself-quote-angelica.jpg
+                        image_thumb: thumbnails/lettertomyself-quote-angelica.jpg
+                    -   image_url: lettertomyself-quote-rod.jpg
+                        image_thumb: thumbnails/lettertomyself-quote-rod.jpg
+                    -   image_url: lettertomyself-quote-sasha.jpg
+                        image_thumb: thumbnails/lettertomyself-quote-sasha.jpg
+                    -   image_url: spirit-day-facebook.jpg
+                        image_thumb: thumbnails/spirit-day-facebook.jpg
+                    -   image_url: coming-out-day-facebook.jpg
+                        image_thumb: thumbnails/coming-out-day-facebook.jpg
+    image_path: work/vh1-logo
+    banner: vh1-logo-banner.jpg
+    thumbnail: vh1-logo-thumbnail.jpg
   #Anthologist
   - name: the Anthologist
     subhead: Publication
-    weight: 4
+    weight: 3
     url: the-anthologist
     roles: Brand Design, Publication Design, Web Design 
     tiny_description: Rutgers University's literary magazine that publishes a collection of curated and reviewed written and visual work contributed by the Rutgers student body. 
     intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be binded and reproduced in a magazine.
-    description: <p>Joining the Anthologist allowed me the priviledge to work with many talented writers and artists. Taking on the Anthologist meant creating promotional material, creating and maintaining the site as well as designing the magazine for publishing every semester.</p><p class="center">Here's a select collection of works from my time at the Anthologist:</p>
-    link: #issuu link
+    sections:
+        -   text: <p>Joining the Anthologist allowed me the priviledge to work with many talented writers and artists. Taking on the Anthologist meant creating promotional material, creating and maintaining the site as well as designing the magazine for publishing every semester.</p>
+            image: anthologist-release.jpg
+        -   gallery:
+            -   header: Past Issue Covers
+                images:
+                    -   image_url: antho83-cover.jpg
+                        image_thumb: thumbnails/antho83-cover.jpg
+                    -   image_url: antho82-cover.jpg
+                        image_thumb: thumbnails/antho82-cover.jpg
+                    -   image_url: antho81_cover.jpg
+                        image_thumb: thumbnails/antho81_cover.jpg
+                    -   image_url: antho80-cover.jpg
+                        image_thumb: thumbnails/antho80-cover.jpg
+                    -   image_url: antho79-cover.jpg
+                        image_thumb: thumbnails/antho79-cover.jpg
+    link: https://issuu.com/theantho
     link_text: See on Issuu
     image_path: work/the-anthologist
     banner: anthologist-banner.jpg
@@ -65,19 +146,59 @@ projects:
   #HackRU
   - name: HackRU
     subhead: Hackathon
-    weight: 5
+    weight: 4
     url: hackru
     roles: Brand Design, Web Design, Print Design
     tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
     intro: Rutgers University's hackathon held every semester. The event holds over 1000 students from around the nation, giving students 24 hours to build whatever they want with the skills they bring.
-    description: <p>I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. </p>
+    sections:
+        -   text: <p>I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. </p>
+            image: hackru-peoples.jpg
+        -   links:
+                -   link: /sites/hackru-fall-2016/html/index.html
+                    link_text: Fall 2016 Site
+                -   link: /sites/hackru-spring-2016/templates/index.html
+                    link_text: Spring 2016 Site
+        -   image: hackru-sticker-banner.jpg
+            gallery:
+                -   header: Merchandise
+                    images:
+                        -   image_url: hackru-shirt-1.png
+                            image_thumb: hackru-shirt-1.png
+                        -   image_url: hackru-shirt-2.png
+                            image_thumb: hackru-shirt-2.png
+                        -   image_url: hackru-shirt-3.png
+                            image_thumb: hackru-shirt-3.png
+                -   images:
+                        -   image_url: hackru-stickers-2016_1-01.png
+                            image_thumb: hackru-stickers-2016_1-01.png
+                        -   image_url: stick-04.png
+                            image_thumb: thumbnails/stick-04.png
+                        -   image_url: hackru-stickers-2016_1-02.png
+                            image_thumb: hackru-stickers-2016_1-02.png
+                        -   image_url: stick-07.png
+                            image_thumb: stick-07.png
+                        -   image_url: hackru-stickers-2016_1-03.png
+                            image_thumb: hackru-stickers-2016_1-03.png
+                        -   image_url: hackru-stickers-01.png
+                            image_thumb: thumbnails/hackru-stickers-01.png
+        -   text: <h2>Learn more about HackRU</h2><div class="divider"></div><p></p>
+            links: 
+                -   link: https://medium.com/the-hackru
+                    link_text: Medium
+                -   link: https://www.instagram.com/thehackru/
+                    link_text: Instagram
+                -   link: https://www.facebook.com/theHackRU/
+                    link_text: Facebook   
+                -   link: https://twitter.com/thehackru?lang=en
+                    link_text: Twitter   
     image_path: work/hackru
     banner: hackru-banner.jpg
     thumbnail: hackru-thumbnail.jpg
   #Anchorage
   - name: Anchorage
     subhead: Product
-    weight: 6
+    weight: 5
     url: anchorage
     roles: Product Design
     contributors:
@@ -89,7 +210,9 @@ projects:
             portfolio: http://williamsaulnier.com/
     tiny_description: A lightweight browser agnostic dashboard for your new-tab page. Made during UPenn's 36-hour hackathon.
     intro: A modular, grid based homepage consisting of widgets that are highly customizable. Created with a team of two other developers at the 36-hour hackathon, PennApps Fall 2015.
-    description: <p>By the end of the hackathon, my team and I had delivered a prototype with a few functional widgets and working customization functions. The prototype allowed for color customizability of widget UI and custom backgrounds. The widgets themselves also had the ability to be placed anywhere within a grid based system that organized the placement of the widgets. Widgets could follow a 2x2, 2x1 or 1x1 size within the grid system, these units being user specified as well.</p><p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
+    sections:
+        -   image: anchorage-widgets.png
+        -   text: <p>By the end of the hackathon, my team and I had delivered a prototype with a few functional widgets and working customization functions. The prototype allowed for color customizability of widget UI and custom backgrounds. The widgets themselves also had the ability to be placed anywhere within a grid based system that organized the placement of the widgets. Widgets could follow a 2x2, 2x1 or 1x1 size within the grid system, these units being user specified as well.</p><p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
     image_path: work/anchorage
     banner: anchorage-banner.jpg
     thumbnail: anchorage-thumbnail.jpg
