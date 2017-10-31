@@ -13,15 +13,16 @@ projects:
         -   name: Maxwell Huang-Hobbs
             portfolio: http://huang-hobbs.co/
     tiny_description: A thread based messaging client made for organizing and accessing conversations.
-    intro: Messaging typically is a single pipeline of information being exchanged back-and-forth. Other messaging clients offer features to create extra spaces where these communications can be categorized. However, when in the moment of conversation with multiple people, this conversation can split into multiple discussions. Keeping track of these conversations in one stream is difficult, especially for archival purposes. This is where Decorum seeks to offer a solution.
+    intro: Messaging typically is a single pipeline of information being exchanged back-and-forth. Other messaging clients offer features to create extra spaces where these communications can be categorized. However, when in the moment of conversation with multiple people, this conversation can't be split into multiple discussions. Keeping track of these conversations in one stream is difficult, especially for archival purposes. This is where Decorum seeks to offer a solution.
     image_path: work/decorum
     thumbnail: decorum-thumbnail.jpg
     banner: decorum-banner.jpg
     link: https://www.figma.com/proto/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum?scaling=contain&node-id=1%3A4
     link_text: See On Figma
     sections:
-        -   text: <p>Our friend group spends talks to each other daily through Slack. We have our Slack channels that we use to keep our convsations relevant, but even then we'd find ourselves talking over each other from multiple conversations taking place in a single channel.</p><p>This is when one of our friends started working on an MVP for a side-project to try and help that which is how this project was started.</p><p>After showing me and a few other friends our the MVP and pitching us the idea we were totally on board to help him.</p><h2>The Problem</h2><div class="divider"></div><p>Essentially, what we wanted to try and offer was a way to branch discussions into their own spaces so that a certain organization could be maintained in a conversation with many participants. </p>
+        -   text: <p>Our friend group spends talks to each other daily through Slack. We have our Slack channels that we used to keep our conversations relevant, but even then we'd find ourselves talking over each other from multiple conversations taking place in a single channel.</p><p>This is when one of our friends started working on an MVP for a side-project to try to help that which is how this project was started.</p><p>After showing me and a few other friends the MVP and pitching us the idea, we were totally on board to help him.</p><h2>The Problem</h2><div class="divider"></div><p>Essentially, what we wanted to try to offer was a way to branch discussions into their own spaces so that a certain organization could be maintained in a conversation with many participants. </p>
             image: decorum-process.jpg
+            caption: A very early initial brainstorm of Decorum.
         -   text: <h2>Process</h2><div class="divider"></div><p>From a product standpoint, the problem that had to be solved was creating a means to handle multi-threaded conversations and organizing them. Then integrating that solution into a tradition chat interface. I wish I saved some of the original sketches, instead I have some of the original Figma mocks of some early prototypes. </p>
             links: 
                 -   link: https://www.figma.com/file/PRdErs08OPjZ5LffIltYuaQ4/Decorum-v.10
@@ -30,6 +31,8 @@ projects:
                     link_text: Decorum Protoype 2
                 -   link: https://www.figma.com/file/ciStDX1Mead5fvoLnA03iSEa/Decorum-v.20
                     link_text: Decorum Protoype 3
+        -   text: <h2>Future Challenges</h2><div class="divider"></div><p>The current design is obviously subject to change since this project still is under development. For the future we foresee some challenges that will need to taken care of as we reevaluate later builds. These include:</p><ul><li>Thread pruning</li><li>Adding context messages to new threads</li><li>Thread organization/reorganization</li><li>Additional thread levels</li><li>Account management</li></ul>
+        -   text: <h2>Where we are</h2><div class="divider"></div><p>Currently, Decorum is being developed our spare time. Since we're now past prototyping, the product is being built and slated for release sometime next year.</p>
   #VH1/Logo
   - name: VH1 & LogoTV Digital
     subhead: Network
@@ -121,9 +124,9 @@ projects:
     url: the-anthologist
     roles: Brand Design, Publication Design, Web Design 
     tiny_description: Rutgers University's literary magazine that publishes a collection of curated and reviewed written and visual work contributed by the Rutgers student body. 
-    intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be binded and reproduced in a magazine.
+    intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be bound and reproduced in a magazine.
     sections:
-        -   text: <p>Joining the Anthologist allowed me the priviledge to work with many talented writers and artists. Taking on the Anthologist meant creating promotional material, creating and maintaining the site as well as designing the magazine for publishing every semester.</p>
+        -   text: <p>Joining the Anthologist allowed me the privilege to work with many talented writers and artists. Taking on the Anthologist meant creating promotional material, creating and maintaining the site as well as designing the magazine for publishing every semester.</p>
             image: anthologist-release.jpg
         -   gallery:
             -   header: Past Issue Covers
@@ -152,7 +155,7 @@ projects:
     tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
     intro: Rutgers University's hackathon held every semester. The event holds over 1000 students from around the nation, giving students 24 hours to build whatever they want with the skills they bring.
     sections:
-        -   text: <p>I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. </p>
+        -   text: <p>I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. Every semester the marketing team and I collaborated on the theme of the semester and built a look and feel to accompany it.</p>
             image: hackru-peoples.jpg
         -   links:
                 -   link: /sites/hackru-fall-2016/html/index.html

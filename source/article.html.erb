@@ -2,7 +2,7 @@
 work_items: true
 ---
 <section id="article">
-	<h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3>
+	<div class="nav"><h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3></div>
 	<header id="article-header">
 		<div class="article-banner">
 			<img src="/images/<%=project.image_path %>/<%= project.banner %>">
@@ -33,6 +33,7 @@ work_items: true
 			<% if section.image %>
 			<div class="article-image">				
 				<%= image_tag("/images/#{project.image_path}/#{section.image}", { :"data-lity" => ""}) %>
+				<p class="caption"><%= section.caption %></p> 
 			</div>
 			<% end %>
 			<div class="article-text">

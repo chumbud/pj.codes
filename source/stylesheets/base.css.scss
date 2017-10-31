@@ -59,6 +59,16 @@ h3 {
 	color: $h;
 	font-size: 1.3125rem;
 	overflow: hidden;
+	.right {
+		display: inline-block;
+		text-align: right;
+		float: right;
+		a {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		@media #{$mobile} { font-size: 1rem; }
+	}
 }
 h4 {
 	color: $h;
@@ -74,7 +84,7 @@ e {
 	margin: 0 auto;
 	padding: 80px;
 	@media #{$mobile} {
-		padding: 4vh;
+		padding: 7vh 4vh;
 	}
 }
 .divider {
@@ -85,7 +95,7 @@ e {
 }
 .name { 
 	margin-top: 0px !important;
-	margin-bottom: 55px;
+	margin-bottom: 50px;
 	color: $main;
 }
 .icon {

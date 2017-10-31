@@ -90,6 +90,14 @@ $desktop: "(min-width: 769px)";
 					margin: 0px;
 					max-width: none;
 				}
+				h2 {
+					transition: color .2s ease-in-out;
+				}
+				a:hover  {
+					h2 {
+						color: $main;
+					}
+				}
 			}
 			@media #{$mobile} {
 				margin: 0px;
@@ -114,10 +122,13 @@ $desktop: "(min-width: 769px)";
 			h2 {
 				color: $h;
 				font-size: 2.25rem;
-				margin: 0px;
+				margin: 0;
 				line-height: 120%;
 				display: inline-block;
 				white-space: pre;
+				@media #{$mobile} {
+					font-size: 8vw;
+				}
 			}
 			.title-head {
 				display: block;
@@ -134,14 +145,6 @@ $desktop: "(min-width: 769px)";
 					line-height: 100%;
 					@media #{$mobile} {
 						content: '';
-					}
-				}
-				a {
-					h2 {
-						transition: color .2s ease-in-out;
-					}
-					&:hover h2 {
-						color: $main;
 					}
 				}
 			}

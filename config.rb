@@ -12,6 +12,7 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+ignore '*.psd'
 activate :directory_indexes
 # Remove .html extension from pages
 activate :livereload

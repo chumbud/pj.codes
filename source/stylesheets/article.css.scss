@@ -5,13 +5,48 @@ $h: #1a324f;
 $secondary: #ffd2d2;
 $img-bg: #e1ecff;
 
-$mobile: "(max-width: 768px)";
+$mobile: "(max-width: 500px)";
 
 #article {
 	p {
 		margin: 0 auto;
 		max-width: 700px;
 		font-size: 1.3125rem;
+	}
+	.link-section {
+		@media #{$mobile} {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+		}
+		a:not(:last-child) {
+			margin-right: 15px;
+			@media #{$mobile} {
+				margin: 0 0 15px;
+			}
+		}
+	}
+	.tiny-btn {
+		@media #{$mobile} {
+			font-size: 1rem;
+			text-align: center;
+		}
+	}
+	.nav.fixed {
+		position: fixed;
+		width: 100%;
+		left: 0;
+		top: 0;
+		background-color: white;
+		z-index: 10;
+		border-top: 5px solid $secondary;
+		box-shadow: 0px 0px 15px 0px rgba(246, 140, 140, 0.3);
+		h3 {
+			padding: 15px 80px;
+			@media #{$mobile} {padding: 15px 4vh;}
+			max-width: 1200px;
+			margin-bottom: 0px;
+		}
 	}
 }
 
@@ -31,11 +66,12 @@ $mobile: "(max-width: 768px)";
 	}
 	.article-header-content {
 		max-width: 700px;
-		margin: 50px auto 30px;
+		margin: 50px auto 0px;
 		h1 {
 			font-size: 3.4375rem;
 			font-weight: 500;
 			margin-bottom: 0px;
+			margin-top: 0px;
 			line-height: 100%;
 			color: $h;
 		}
@@ -52,14 +88,11 @@ $mobile: "(max-width: 768px)";
 				font-size: 1rem;
 				margin-bottom: 15px;
 			}
-			a:not(:last-child) {
-				margin-right: 15px;
-			}
 		}
 	}
 }
 .article-project-link {
-	margin: 24px 0px;
+	margin: 24px 0px 5px;
 	a {
 		font-size: 0.875rem;
 		padding: 15px 25px;
@@ -75,6 +108,10 @@ $mobile: "(max-width: 768px)";
 		transition: background-color .2s ease-in-out, 
 		color .2s ease-in-out,
 		top .2s ease-in-out;
+		@media #{$mobile} { 
+			display: block;
+			text-align: center;
+		}
 		&:hover {
 			background-color: #0f4191;
 			color: $secondary;
@@ -113,13 +150,18 @@ $mobile: "(max-width: 768px)";
 			max-width: 100%;
 			height: auto;
 		}
+		.caption {
+			font-size: 1rem;
+			opacity: .8;
+			text-align: center;
+			font-style: italic;
+			margin-top: 5px;
+			margin-bottom: 0px;
+		}
 	}
 	.link-section {
 		margin-top: 20px;
 		margin-bottom: 50px;
-		a:not(:last-child) {
-			margin-right: 15px;
-		}
 	}
 	h2 {
 		font-size: 1rem;
@@ -131,6 +173,13 @@ $mobile: "(max-width: 768px)";
 	}
 	p {
 		margin-bottom: 20px;
+	}
+	.article-text {
+		ul 
+			li {
+				line-height: 160%;
+				font-size: 1.3125rem;
+		}
 	}
 	.article-gallery {
 		margin-top: 10px;
