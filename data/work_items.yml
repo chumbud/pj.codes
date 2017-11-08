@@ -12,26 +12,30 @@ projects:
             portfolio: http://yujinariza.com/
         -   name: Maxwell Huang-Hobbs
             portfolio: http://huang-hobbs.co/
-    tiny_description: A thread based messaging client made for organizing and accessing conversations.
-    intro: Messaging typically is a single pipeline of information being exchanged back-and-forth. Other messaging clients offer features to create extra spaces where these communications can be categorized. However, when in the moment of conversation with multiple people, this conversation can't be split into multiple discussions. Keeping track of these conversations in one stream is difficult, especially for archival purposes. This is where Decorum seeks to offer a solution.
+    tiny_description: A structured thread based messaging client made for organizing and accessing conversations.
+    intro: Decorum is a revisited look into structured, hierarchical communication for those looking to easily, circulate, retrieve and archive information. Think the tree-structure of a forum with the familiarity of a chat client.
     image_path: work/decorum
     thumbnail: decorum-thumbnail.jpg
     banner: decorum-banner.jpg
-    link: https://www.figma.com/proto/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum?scaling=contain&node-id=1%3A4
+    link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=5%3A143&scaling=contain
     link_text: See On Figma
     sections:
-        -   text: <p>Our friend group spends talks to each other daily through Slack. We have our Slack channels that we used to keep our conversations relevant, but even then we'd find ourselves talking over each other from multiple conversations taking place in a single channel.</p><p>This is when one of our friends started working on an MVP for a side-project to try to help that which is how this project was started.</p><p>After showing me and a few other friends the MVP and pitching us the idea, we were totally on board to help him.</p><h2>The Problem</h2><div class="divider"></div><p>Essentially, what we wanted to try to offer was a way to branch discussions into their own spaces so that a certain organization could be maintained in a conversation with many participants. </p>
-            image: decorum-process.jpg
+        -   image: my-friends-talk-too-much.jpg
+            caption: Our slack group talks a lot...
+            text: <h2>The Problem</h2><div class="divider"></div><p>The idea came from one of my friends who recognized a problem with modern day communication tools, casual and enterprise. Conversations are usually easy to keep track of when it's a 1-on-1 scenario or even maybe with a few people. Though the more people you throw into the mix, the easier it is to lose important information and lose context of the conversation.</p><p>So my friend quickly mocked up what he had in mind to pitch to my other friends and I. We were easily convinced and totally on board to help with the project.</p><br><br>
+        -   image: decorum-process.jpg
             caption: A very early initial brainstorm of Decorum.
-        -   text: <h2>Process</h2><div class="divider"></div><p>From a product standpoint, the problem that had to be solved was creating a means to handle multi-threaded conversations and organizing them. Then integrating that solution into a tradition chat interface. I wish I saved some of the original sketches, instead I have some of the original Figma mocks of some early prototypes. </p>
+            text: <h2>Process</h2><div class="divider"></div><p>We started with a few meetings to get a clearer picture of what we needed, time we were willing to dedicate and goals we wanted to shoot for. Soon after, I started sketching some barebones structures to explore.</p><p>I'm still kicking myself for not properly documenting the earlier steps but below is some of the first and early revisions and versions we went through to get to where we're at now.</p>
             links: 
                 -   link: https://www.figma.com/file/PRdErs08OPjZ5LffIltYuaQ4/Decorum-v.10
-                    link_text: Decorum Protoype 1
+                    link_text: Protoype 1
                 -   link: https://www.figma.com/file/cQwZXerwC2wMSU6dJMQAg4p3/Decorum-v.15
-                    link_text: Decorum Protoype 2
+                    link_text: Protoype 2
                 -   link: https://www.figma.com/file/ciStDX1Mead5fvoLnA03iSEa/Decorum-v.20
-                    link_text: Decorum Protoype 3
-        -   text: <h2>Future Challenges</h2><div class="divider"></div><p>The current design is obviously subject to change since this project still is under development. For the future we foresee some challenges that will need to taken care of as we reevaluate later builds. These include:</p><ul><li>Thread pruning</li><li>Adding context messages to new threads</li><li>Thread organization/reorganization</li><li>Additional thread levels</li><li>Account management</li></ul>
+                    link_text: Protoype 3
+                -   link: https://www.figma.com/file/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum-v.3
+                    link_text: Protoype 4
+        -   text: <h2>Future Challenges</h2><div class="divider"></div><p>The current design is obviously subject to change since this project still is under development. For the future we foresee some challenges that will need to taken care of as we reevaluate later builds. These include:</p><ul><li>Adding context messages to new threads</li><li>Thread organization/reorganization</li><li>Additional thread levels</li><li>Account management</li></ul>
         -   text: <h2>Where we are</h2><div class="divider"></div><p>Currently, Decorum is being developed our spare time. Since we're now past prototyping, the product is being built and slated for release sometime next year.</p>
   #VH1/Logo
   - name: VH1 & LogoTV Digital
