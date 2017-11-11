@@ -50,6 +50,24 @@ projects:
         -   gallery:
             -   header: RuPaul's Drag Race
                 images:
+                    -   image_url: rp-as3-flyer-aja.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-aja.jpg
+                    -   image_url: rp-as3-flyer-bendelacreme.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-bendelacreme.jpg
+                    -   image_url: rp-as3-flyer-chichi.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-chichi.jpg
+                    -   image_url: rp-as3-flyer-kennedy.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-kennedy.jpg
+                    -   image_url: rp-as3-flyer-milk.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-milk.jpg
+                    -   image_url: rp-as3-flyer-morgan.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-morgan.jpg
+                    -   image_url: rp-as3-flyer-shangela.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-shangela.jpg
+                    -   image_url: rp-as3-flyer-thorgy.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-thorgy.jpg
+                    -   image_url: rp-as3-flyer-trixie.jpg
+                        image_thumb: thumbnails/rp-as3-flyer-trixie.jpg
                     -   image_url: rupaul-final-four-social-peppermint.jpg
                         image_thumb: thumbnails/rupaul-final-four-social-peppermint.jpg
                     -   image_url: rupaul-final-four-social-sasha.jpg
