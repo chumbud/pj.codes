@@ -39,8 +39,13 @@
 	</script>
 	<% end %>
 
-	<%= stylesheet_link_tag "base", "about", "work", "article", "lity.min", "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" %>
-	<%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js", "functions", "lity.min" %>
+	<%= stylesheet_link_tag "base", "about", "work", "article", "lity.min", "aos", "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" %>
+	<%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js", "functions", "lity.min", "aos" %>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+			AOS.init();
+		});
+	</script>
 
 </head>
 <body>

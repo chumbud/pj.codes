@@ -4,10 +4,10 @@ work_items: true
 <section id="article">
 	<div class="nav"><h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3></div>
 	<header id="article-header">
-		<div class="article-banner">
+		<div class="article-banner" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="0">
 			<img src="/images/<%=project.image_path %>/<%= project.banner %>">
 		</div>
-		<div class="article-header-content">
+		<div class="article-header-content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="200">
 			<h1><%= project.name %></h1>
 			<h2><%= project.subhead %> - Role(s): <%= project.roles %></h2>
 			<div class="divider"></div>
@@ -28,7 +28,7 @@ work_items: true
 		</div>
 	</header>
 	<% if project.sections %>
-	<div id="article-extended">
+	<div id="article-extended" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="400">
 		<% project.sections.each_with_index do |section| %>
 			<% if section.image %>
 			<div class="article-image">				
