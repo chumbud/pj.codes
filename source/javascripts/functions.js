@@ -1,14 +1,14 @@
 $(document).ready(function() {
-	$('.info a').hover(function() {
-		$(this).closest('.project-list-item').find('.thumbnail a').addClass('hover');
+	$('.info').hover(function() {
+		$(this).closest('.project-list-item').find('.thumbnail').addClass('hover');
 	}, function() {
-		$(this).closest('.project-list-item').find('.thumbnail a').removeClass('hover');
+		$(this).closest('.project-list-item').find('.thumbnail').removeClass('hover');
 	});
 
-	$('.thumbnail a').hover(function() {
-		$(this).closest('.project-list-item').find('.info a').addClass('hover');
+	$('.thumbnail .wrapper').hover(function() {
+		$(this).closest('.project-list-item').find('.info').addClass('hover');
 	}, function() {
-		$(this).closest('.project-list-item').find('.info a').removeClass('hover');
+		$(this).closest('.project-list-item').find('.info').removeClass('hover');
 	});
 
 	$('.read-more').on('click', function(e) {

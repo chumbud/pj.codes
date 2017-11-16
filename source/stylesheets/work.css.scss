@@ -161,14 +161,14 @@ $desktop: "(min-width: 769px)";
 		}
 	}
 }
-.thumbnail .hover{ 
+.thumbnail.hover .wrapper a { 
 	transform: translate(0px, -3px);
 	box-shadow: 0px 0px 10px 0px rgba(246, 140, 140,0.4) !important;
 	&:before {
 		transform: translate(0px, 3px) scale(.97) !important;
 	}
 }
-.info .hover h2 {
+.info.hover h2 {
 	color: $main !important;
 }
 .weight {

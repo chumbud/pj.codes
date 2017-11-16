@@ -198,6 +198,8 @@ $mobile: "(max-width: 500px)";
 			.article-gallery-image {
 				width: calc(100% / 3);
 				img {
+					-webkit-backface-visibility: hidden;
+					position: relative;
 					padding: 10px;
 					width: 100%;
 					transition: opacity .2s ease-in-out;
