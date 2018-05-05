@@ -23,13 +23,13 @@ $mobile: "(max-width: 768px)";
 	font-size: .75rem;
 	line-height: normal;
 }
-.labels > *:first-child, .links > *:first-child {
+.labels > *:not(:last-child), .links > *:not(:last-child) {
 	margin-bottom: .5rem;
 }
 .labels > * {
 	margin-right: 10px;
 }
-.links > a:hover {
+.links > a:hover, .about p > a:hover {
 	text-decoration: underline;
 }
 .tiny-btn {

@@ -68,7 +68,7 @@ $mobile: "(max-width: 500px)";
 		max-width: 700px;
 		margin: 50px auto 0px;
 		h1 {
-			font-size: 3.4375rem;
+			font-size: 4rem;
 			font-weight: 500;
 			margin-bottom: 0px;
 			margin-top: 0px;
@@ -85,7 +85,6 @@ $mobile: "(max-width: 500px)";
 			margin-top: 30px;
 			margin-bottom: 40px;
 			p {
-				font-size: 1rem;
 				margin-bottom: 15px;
 			}
 		}
@@ -179,6 +178,9 @@ $mobile: "(max-width: 500px)";
 			li {
 				line-height: 160%;
 				font-size: 1.3125rem;
+		}
+		p > a:hover {
+			text-decoration: underline;
 		}
 	}
 	.article-gallery {
