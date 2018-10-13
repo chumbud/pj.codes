@@ -2,7 +2,7 @@
 work_items: true
 ---
 <section id="article">
-	<div class="nav"><h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3></div>
+	<div class="fill"><div class="nav"><h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3></div></div>
 	<header id="article-header">
 		<div class="article-banner" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="0">
 			<img src="/images/<%=project.image_path %>/<%= project.banner %>">
@@ -30,38 +30,40 @@ work_items: true
 	<% if project.sections %>
 	<div id="article-extended" data-aos="fade-up" data-aos-anchor="article-header" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="400">
 		<% project.sections.each_with_index do |section| %>
-			<% if section.image %>
-			<div class="article-image">				
-				<%= image_tag("/images/#{project.image_path}/#{section.image}", { :"data-lity" => ""}) %>
-				<p class="caption"><%= section.caption %></p> 
-			</div>
+		<% if section.image %>
+		<div class="article-image">				
+			<%= image_tag("/images/#{project.image_path}/#{section.image}", { :"data-lity" => ""}) %>
+			<p class="caption"><%= section.caption %></p> 
+		</div>
+		<% end %>
+		<div class="article-text">
+			<%= section.text %>
+		</div>
+		<% if section.links %>
+		<div class="link-section">
+			<% section.links.each_with_index do |link| %>
+			<%= link_to(link.link_text, link.link, class: "tiny-btn", target: '_blank') %>
 			<% end %>
-			<div class="article-text">
-				<%= section.text %>
-			</div>
-			<% if section.links %>
-			<div class="link-section">
-				<% section.links.each_with_index do |link| %>
-				<%= link_to(link.link_text, link.link, class: "tiny-btn", target: '_blank') %>
-				<% end %>
-			</div>
+		</div>
+		<% end %>
+		<% if section.gallery %>
+		<% section.gallery.each_with_index do |gallery| %>
+		<div class="article-gallery">
+			<% if gallery.header %>
+			<h2><%= gallery.header%></h2>
 			<% end %>
-			<% if section.gallery %>
-				<% section.gallery.each_with_index do |gallery| %>
-				<div class="article-gallery">
-					<% if gallery.header %>
-					<h2><%= gallery.header%></h2>
-					<% end %>
-					<div class="article-gallery-container">
-						<% gallery.images.each_with_index do |image| %>
-						<div class="article-gallery-image">
-							<%= image_tag("/images/#{project.image_path}/#{image.image_thumb}", { :"data-lity" => "", :"data-lity-target" => "/images/#{project.image_path}/#{image.image_url}"}) %>
-						</div>
-						<% end %>
-					</div>
+			<div class="article-gallery-container">
+				<% if gallery.images %>
+				<% gallery.images.each_with_index do |image| %>
+				<div class="article-gallery-image">
+					<%= image_tag("/images/#{project.image_path}/#{image.image_thumb}", { :"data-lity" => "", :"data-lity-target" => "/images/#{project.image_path}/#{image.image_url}"}) %>
 				</div>
 				<% end %>
-			<% end %>
+				<% end %>
+			</div>
+		</div>
+		<% end %>
+		<% end %>
 		<% end %>
 	</div>
 	<% end %>

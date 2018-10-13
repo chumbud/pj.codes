@@ -17,9 +17,10 @@ projects:
     image_path: work/decorum
     thumbnail: decorum-thumbnail.jpg
     banner: decorum-banner.jpg
-    link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=5%3A143&scaling=contain
+    link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=74%3A3471&scaling=contain
     link_text: See On Figma
     sections:
+        -   text: <h2>My role</h2><p>My contribution to this project has been handling all UX and visual design efforts. 
         -   image: my-friends-talk-too-much.jpg
             caption: Our slack group talks a lot...
             text: <h2>The Problem</h2><div class="divider"></div><p>The idea came from one of my friends who recognized a problem with modern day communication tools, casual and enterprise. Conversations are usually easy to keep track of when it's a 1-on-1 scenario or even maybe with a few people. Though the more people you throw into the mix, the easier it is to lose important information and lose context of the conversation.</p><p>So my friend quickly mocked up what he had in mind to pitch to my other friends and I. We were easily convinced and totally on board to help with the project.</p><br><br>
@@ -42,73 +43,18 @@ projects:
     subhead: Network
     weight: 2
     url: vh1
-    roles: Digital Design, Animation, Web Design
-    tiny_description: A network focused around pop culture, music and entertainment.
-    intro: During my time at VH1, I was given the opportunity to work on a breadth of projects that ranged from an instagram campaigns promoting new shows to web projects supplementing show content.
+    roles: Digital Design, Animation, Web Design, Product Design
+    tiny_description: Networks focused around pop culture, music and entertainment.
+    intro: 
     sections:
         -   text: <h2>What we do</h2><div class="divider"></div><p>Belonging to a small team of designers, we're tasked with transferring the brand voice of VH1 and Logo on-air content to the digital space through its social media and websites. The nature of this work varied heavily from project to project. One project could be creating a full social campaign to publicize an upcoming show or making animated instagram posts for an initiative the network is pushing. Another would be building a <a href="http://www.vh1.com/shows/the-breaks/interactive-map">web app</a> that viewers could engage with that supplements a show's content. We also have created prototypes of our networks' sites for our product teams to implement more accurate styling to new pages and features.</p><p>Since the type of work we do changes frequently, we're molded to be a sort of in-house agency for our networks with a well-rounded set of talents.</p>
         -   text: <p>Below is a few selected works from my time there.</p>
         -   gallery:
             -   header: RuPaul's Drag Race
-                images:
-                    -   image_url: rp-as3-flyer-aja.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-aja.jpg
-                    -   image_url: rp-as3-flyer-bendelacreme.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-bendelacreme.jpg
-                    -   image_url: rp-as3-flyer-chichi.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-chichi.jpg
-                    -   image_url: rp-as3-flyer-kennedy.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-kennedy.jpg
-                    -   image_url: rp-as3-flyer-milk.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-milk.jpg
-                    -   image_url: rp-as3-flyer-morgan.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-morgan.jpg
-                    -   image_url: rp-as3-flyer-shangela.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-shangela.jpg
-                    -   image_url: rp-as3-flyer-thorgy.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-thorgy.jpg
-                    -   image_url: rp-as3-flyer-trixie.jpg
-                        image_thumb: thumbnails/rp-as3-flyer-trixie.jpg
-                    -   image_url: rupaul-final-four-social-peppermint.jpg
-                        image_thumb: thumbnails/rupaul-final-four-social-peppermint.jpg
-                    -   image_url: rupaul-final-four-social-sasha.jpg
-                        image_thumb: thumbnails/rupaul-final-four-social-sasha.jpg
-                    -   image_url: rupaul-final-four-social-shea.jpg
-                        image_thumb: thumbnails/rupaul-final-four-social-shea.jpg
-                    -   image_url: rupaul-final-four-social-trinity.jpg
-                        image_thumb: thumbnails/rupaul-final-four-social-trinity.jpg
-                    -   image_url: sasha-1024x512.jpg
-                        image_thumb: thumbnails/sasha-1024x512-thumbnail.jpg
-                    -   image_url: ru-newyears-first-draft.jpg
-                        image_thumb: thumbnails/ru-newyears-first-draft-thumbnail.jpg
-                    -   image_url: sasha-velour-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/sasha-velour-instagram-1080x1080.jpg
-                    -   image_url: aja-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/aja-instagram-1080x1080.jpg
-                    -   image_url: cynthia-lee-fontaine-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/cynthia-lee-fontaine-instagram-1080x1080.jpg
-                    -   image_url: charlie-hides-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/charlie-hides-instagram-1080x1080.jpg
-                    -   image_url: eureka-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/eureka-instagram-1080x1080.jpg
-                    -   image_url: farrah-moan-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/farrah-moan-instagram-1080x1080.jpg
-                    -   image_url: jaymes-mansfield-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/jaymes-mansfield-instagram-1080x1080.jpg
-                    -   image_url: kimora-blac-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/kimora-blac-instagram-1080x1080.jpg
-                    -   image_url: nina-bonina-brown-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/nina-bonina-brown-instagram-1080x1080.jpg
-                    -   image_url: peppermint-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/peppermint-instagram-1080x1080.jpg
-                    -   image_url: shea-coulee-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/shea-coulee-instagram-1080x1080.jpg
-                    -   image_url: trinity-taylor-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/trinity-taylor-instagram-1080x1080.jpg
-                    -   image_url: alexis-michelle-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/alexis-michelle-instagram-1080x1080.jpg
-                    -   image_url: valentina-instagram-1080x1080.jpg
-                        image_thumb: thumbnails/valentina-instagram-1080x1080.jpg
+        -   image: rpdr-1.jpg
+        -   image: rpdr-2.jpg
+        -   image: rpdr-3.jpg
+        -   gallery:
             -   header: Scared Famous
                 images:
                     -   image_url: scared-famous-poster-alaska.jpg
@@ -238,9 +184,14 @@ projects:
     intro: A modular, grid based homepage consisting of widgets that are highly customizable. Created with a team of two other developers at the 36-hour hackathon, PennApps Fall 2015.
     sections:
         -   image: anchorage-widgets.png
-        -   text: <p>By the end of the hackathon, my team and I had delivered a prototype with a few functional widgets and working customization functions. The prototype allowed for color customizability of widget UI and custom backgrounds. The widgets themselves also had the ability to be placed anywhere within a grid based system that organized the placement of the widgets. Widgets could follow a 2x2, 2x1 or 1x1 size within the grid system, these units being user specified as well.</p><p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
+        -   text: <p>By the end of the hackathon, my team and I had delivered a prototype with a few functional widgets and working customization functions. The prototype allowed for color customizability of widget UI and custom backgrounds. The widgets themselves also had the ability to be placed anywhere within a grid based system that organized the placement of the widgets. Widgets could follow a 2x2, 2x1 or 1x1 size within the grid system, these units being user specified as well.</p><br><br>
+        -   image: anchorage-panel.jpg
+            text: <p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><br><br>
+        -   image: anchorage-live.webm
+            text: <p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
     image_path: work/anchorage
     banner: anchorage-banner.jpg
     thumbnail: anchorage-thumbnail.jpg
     link: https://github.com/EnigmaSM/anchorage
     link_text: Github Repo
+    
