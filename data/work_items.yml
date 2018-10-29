@@ -20,13 +20,15 @@ projects:
     link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=74%3A3471&scaling=contain
     link_text: See On Figma
     sections:
-        -   text: <h2>My role</h2><p>My contribution to this project has been handling all UX and visual design efforts. 
+        -   text: <h2>My role</h2><p>My contribution to this project has been handling all UX and visual design efforts.</p><br>
         -   image: my-friends-talk-too-much.jpg
             caption: Our slack group talks a lot...
-            text: <h2>The Problem</h2><div class="divider"></div><p>The idea came from one of my friends who recognized a problem with modern day communication tools, casual and enterprise. Conversations are usually easy to keep track of when it's a 1-on-1 scenario or even maybe with a few people. Though the more people you throw into the mix, the easier it is to lose important information and lose context of the conversation.</p><p>So my friend quickly mocked up what he had in mind to pitch to my other friends and I. We were easily convinced and totally on board to help with the project.</p><br><br>
+            text: <h2>The Problem</h2><div class="divider"></div><p>Decorum is trying to occupy an odd space. Imagine you and 10 of your friends are talking in a group chat about a topic. Frequently, talking about a topic devolves into talking about related subtopics. We defined this as "cross-talk". Cross-talk derails and makes a conversation difficult to keep up with. Especially when you're reading the conversation after the fact. Other solutions like Slack have tried adding threads to keep conversations organized, but Slack threads can get lost, aren't divisible and are generally not friendly for discussions longer than a few lines.</p><p>Additionally, If you use something like Slack or Email you're expected to answer right away, or at least it feels that way. This makes communication platforms addicting, even pressuring to use. We want Decorum to take that feeling away, so that you're pulling actionable items instead of being pushed them. This way you can focus on what you need to do.</p>
+        -   text: <h2>Who's it for?</h2><div class="divider"></div><p>Decorum is mainly for smaller groups of people. Groups of people who are looking for structure in their communication.</p><p>Examples would be, niche hobby communities, teams within an organization, large friend groups, research groups or clubs. </p>
+        -   text: <h2>What does success look like?</h2><div class="divider"></div><p>We want Decorum to be a product people get satisfaction out of using. This also means helping people to feel empowered to talk on their own and not be burdened by pressures to use a platform.</p><p>So to help alleviate these issues, our main goals for the product are to be:</p><ul><li>organized, sort of like email.</li><li>approachable, sort of like a chat client.</li><li>asynchronous, sort of like a forum.</li></ul><p>From the research we've done, nothing like this exists.</p><br>
         -   image: decorum-process.jpg
             caption: A very early initial brainstorm of Decorum.
-            text: <h2>Process</h2><div class="divider"></div><p>We started with a few meetings to get a clearer picture of what we needed, time we were willing to dedicate and goals we wanted to shoot for. Soon after, I started sketching some barebones structures to explore.</p><p>I'm still kicking myself for not properly documenting the earlier steps but below is some of the first and early revisions and versions we went through to get to where we're at now.</p>
+            text: <h2>Process</h2><div class="divider"></div><p>A great amount of effort went into defining the problem. At first we thought we knew what we wanted, we assumed communication was a pretty straightfoward problem. However, after a bunch of prototypes and ideas we couldn't quite see a clear picture to a solution. So after a lot of discussion we were able to distill what we wanted into a certain feeling we want Decorum to achieve.</p><p>We view a chat client akin to being in a room with friends, actively being present in a discussion. We want Decorum to feel like sitting in the park with a community of people you're familiar with. Being able to feel present, but also not necessarily needing to feel involved. </p><p>My friends and I find this feeling in social centers of old school MMORPGs or old community BBS forums. It's this feeling of being able to have a high level presence of a community while also feeling no pressure to jump into and out of a conversation. </p><p>Check out some of the ideas we've gone through so far:</p>
             links: 
                 -   link: https://www.figma.com/file/PRdErs08OPjZ5LffIltYuaQ4/Decorum-v.10
                     link_text: Protoype 1
@@ -36,7 +38,6 @@ projects:
                     link_text: Protoype 3
                 -   link: https://www.figma.com/file/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum-v.3
                     link_text: Protoype 4
-        -   text: <h2>Future Challenges</h2><div class="divider"></div><p>The current design is obviously subject to change since this project still is under development. For the future we foresee some challenges that will need to taken care of as we reevaluate later builds. These include:</p><ul><li>Adding context messages to new threads</li><li>Thread organization/reorganization</li><li>Additional thread levels</li><li>Account management</li></ul>
         -   text: <h2>Where we are</h2><div class="divider"></div><p>Currently, Decorum is being developed our spare time. Since we're now past prototyping, the product is being built and slated for release sometime next year.</p>
   #VH1/Logo
   - name: VH1 & LogoTV Digital
@@ -48,7 +49,7 @@ projects:
     intro: 
     sections:
         -   text: <h2>What we do</h2><div class="divider"></div><p>Belonging to a small team of designers, we're tasked with transferring the brand voice of VH1 and Logo on-air content to the digital space through its social media and websites. The nature of this work varied heavily from project to project. One project could be creating a full social campaign to publicize an upcoming show or making animated instagram posts for an initiative the network is pushing. Another would be building a <a href="http://www.vh1.com/shows/the-breaks/interactive-map">web app</a> that viewers could engage with that supplements a show's content. We also have created prototypes of our networks' sites for our product teams to implement more accurate styling to new pages and features.</p><p>Since the type of work we do changes frequently, we're molded to be a sort of in-house agency for our networks with a well-rounded set of talents.</p>
-        -   text: <p>Below is a few selected works from my time there.</p>
+        -   text: <p>Below are a few selected works from my time there.</p>
         -   gallery:
             -   header: RuPaul's Drag Race
         -   image: rpdr-1.jpg
