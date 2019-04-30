@@ -1,12 +1,5 @@
-# pjrosa.com-2017
+# pjrosa.com
 
-Hey, this is my new site.
+Hey, this is my site. 
 
 Made with Middleman and bundles of love.
-
-
-# TODO:
-- Add visual journal
-- Tidy CSS
-- Optimize images
-- Possibly add video~
