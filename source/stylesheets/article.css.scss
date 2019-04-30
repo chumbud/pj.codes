@@ -1,4 +1,3 @@
-
 $main: #2966ff;
 $p: #637ca5;
 $h: #1a324f;
@@ -6,6 +5,7 @@ $secondary: #ffd2d2;
 $img-bg: #e1ecff;
 
 $mobile: "(max-width: 500px)";
+$tablet: "(max-width: 768px)";
 
 #article {
 	p {
@@ -21,9 +21,7 @@ $mobile: "(max-width: 500px)";
 		}
 		a:not(:last-child) {
 			margin-right: 15px;
-			@media #{$mobile} {
-				margin: 0 0 15px;
-			}
+			@media #{$mobile} {margin: 0 0 15px;}
 		}
 	}
 	.tiny-btn {
@@ -176,6 +174,11 @@ $mobile: "(max-width: 500px)";
 		color: $h;
 		max-width: 700px;
 	}
+	h3 {
+		font-size: 1rem;
+		margin: 15px 0 0 0;
+		color: $h;
+	}
 	p {
 		margin-bottom: 20px;
 	}
@@ -185,8 +188,21 @@ $mobile: "(max-width: 500px)";
 				line-height: 160%;
 				font-size: 1.3125rem;
 		}
-		p > a:hover {
+		p > a {
 			text-decoration: underline;
+		}
+	}
+	.breakout {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		img {
+			flex-grow: 2;
+		}
+		.caption {
+			flex-grow: 1;
+			margin: 0 0 0 15px;
+			@media #{$tablet} {margin: 15px 0 0 0;}
 		}
 	}
 	.article-gallery {

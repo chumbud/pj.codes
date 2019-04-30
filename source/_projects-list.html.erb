@@ -18,7 +18,7 @@
 		<div class="thumbnail" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="0">
 			<div class="wrapper">
 				<% link_to("/#{path}/#{project.url}.html") do %> 
-				<%= image_tag("#{project.image_path}/#{project.thumbnail}", :alt => "") %>
+				<%= image_tag("#{project.image_path}/#{project.alias}-thumbnail.jpg", :alt => "") %>
 				<% end %>
 			</div>
 		</div>

@@ -1,8 +1,25 @@
 projects:
-  #Decorum
-  - name: Decorum
+  #pygmy
+  - name: pygmy
+    &alias: pygmy
     subhead: Product
     weight: 1
+    url: *alias
+    roles: Product Design, Research
+    tiny_description: TBA
+    intro: TBA
+    image_path: work/*alias
+    link: TBA
+    link_text: TBA
+    sections: 
+        -   text: TBA
+            breakout: research-breakout.jpg
+            breakout_text: Many people tend to use pen and paper, others might just use their iPhone notes app. A private tumblr blog or twitter could be a journal. At the core of it, journaling is just writing. Many journaling apps suffer from feature-creeping on top of such a simple concept. From what I found, I didn't find an adequately executed solution for my needs. I figured this had a space in the landscape. 
+  #Decorum
+  - name: Decorum
+    &alias: decorum
+    subhead: Product
+    weight: 2
     url: decorum
     roles: Product Design
     contributors:
@@ -14,9 +31,7 @@ projects:
             portfolio: http://huang-hobbs.co/
     tiny_description: A structured thread based messaging client made for organizing and accessing conversations.
     intro: Decorum is a revisited look into structured, hierarchical communication for those looking to easily, circulate, retrieve and archive information. Think the tree-structure of a forum with the familiarity of a chat client.
-    image_path: work/decorum
-    thumbnail: decorum-thumbnail.jpg
-    banner: decorum-banner.jpg
+    image_path: work/*alias
     link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=74%3A3471&scaling=contain
     link_text: See On Figma
     sections:
@@ -41,9 +56,10 @@ projects:
         -   text: <h2>Where we are</h2><div class="divider"></div><p>Currently, Decorum is being developed our spare time. Since we're now past prototyping, the product is being built and slated for release sometime next year.</p>
   #VH1/Logo
   - name: VH1 & LogoTV Digital
+    &alias: vh1-logo
     subhead: Network
-    weight: 2
-    url: vh1
+    weight: 3
+    url: *alias
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: Networks focused around pop culture, music and entertainment.
     intro: 
@@ -84,14 +100,13 @@ projects:
                         image_thumb: thumbnails/spirit-day-facebook.jpg
                     -   image_url: coming-out-day-facebook.jpg
                         image_thumb: thumbnails/coming-out-day-facebook.jpg
-    image_path: work/vh1-logo
-    banner: vh1-logo-banner.jpg
-    thumbnail: vh1-logo-thumbnail.jpg
+    image_path: work/*alias
   #Anthologist
   - name: the Anthologist
+    &alias: anthologist
     subhead: Publication
-    weight: 3
-    url: the-anthologist
+    weight: 4
+    url: *alias
     roles: Brand Design, Publication Design, Web Design 
     tiny_description: Rutgers University's literary magazine that publishes a collection of curated and reviewed written and visual work contributed by the Rutgers student body. 
     intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be bound and reproduced in a magazine.
@@ -113,14 +128,13 @@ projects:
                         image_thumb: thumbnails/antho79-cover.jpg
     link: https://issuu.com/theantho
     link_text: See on Issuu
-    image_path: work/the-anthologist
-    banner: anthologist-banner.jpg
-    thumbnail: the-anthologist-thumbnail.jpg
+    image_path: work/*alias
   #HackRU
   - name: HackRU
+    &alias: hackru
     subhead: Hackathon
-    weight: 4
-    url: hackru
+    weight: 5
+    url: *alias
     roles: Brand Design, Web Design, Print Design
     tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
     intro: Rutgers University's hackathon held every semester. The event holds over 1000 students from around the nation, giving students 24 hours to build whatever they want with the skills they bring.
@@ -165,14 +179,13 @@ projects:
                     link_text: Facebook   
                 -   link: https://twitter.com/thehackru?lang=en
                     link_text: Twitter   
-    image_path: work/hackru
-    banner: hackru-banner.jpg
-    thumbnail: hackru-thumbnail.jpg
+    image_path: work/*alias
   #Anchorage
   - name: Anchorage
+    &alias: anchorage
     subhead: Product
-    weight: 5
-    url: anchorage
+    weight: 6
+    url: *alias
     roles: Product Design
     contributors:
         -   name: Maxwell Huang-Hobbs
@@ -190,9 +203,7 @@ projects:
             text: <p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><br><br>
         -   image: anchorage-live.webm
             text: <p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
-    image_path: work/anchorage
-    banner: anchorage-banner.jpg
-    thumbnail: anchorage-thumbnail.jpg
+    image_path: work/*alias
     link: https://github.com/EnigmaSM/anchorage
     link_text: Github Repo
     
