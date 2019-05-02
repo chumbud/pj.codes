@@ -52,7 +52,7 @@ activate :livereload
 # end
 
 app.data.work_items.projects.each do |project|
-	proxy "/work/#{project.url}.html", "/article.html", locals: { 
+	proxy "/work/#{project.alias}.html", "/article.html", locals: { 
 		project: project,
 		url: "work"
 	}
