@@ -194,15 +194,20 @@ $tablet: "(max-width: 768px)";
 	}
 	.breakout {
 		display: flex;
+		justify-content: space-around;
 		flex-direction: row;
-		flex-wrap: wrap;
-		img {
-			flex-grow: 2;
+		flex-wrap: nowrap;
+		margin: 50px 0px;
+		@media #{$tablet} {flex-wrap: wrap}
+		.breakout-image {
+			img {
+				width: 100%;
+			}
 		}
 		.caption {
-			flex-grow: 1;
-			margin: 0 0 0 15px;
-			@media #{$tablet} {margin: 15px 0 0 0;}
+			max-width: 40%;
+			margin: 0 0 0 40px;
+			@media #{$tablet} {margin: 40px 0 0 0; max-width: 100%;}
 		}
 	}
 	.article-gallery {

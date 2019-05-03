@@ -3,7 +3,7 @@
 	<article class="project-list-item pl-<%= project.url %>">
 		<div class="info" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="200">
 			<div class="wrapper">
-				<% link_to("/#{path}/#{project.url}.html") do %>
+				<% link_to("/#{path}/#{project.alias}.html") do %>
 				<div data-num=<%= project.weight%> class="weight" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="1000" data-aos-delay="200"></div>
 				<div class="title-head">
 
@@ -17,8 +17,8 @@
 		</div>
 		<div class="thumbnail" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="0">
 			<div class="wrapper">
-				<% link_to("/#{path}/#{project.url}.html") do %> 
-				<%= image_tag("work/#{project.alias}-thumbnail.jpg", :alt => "") %>
+				<% link_to("/#{path}/#{project.alias}.html") do %> 
+				<%= image_tag("work/#{project.alias}/#{project.alias}-thumbnail.jpg", :alt => "") %>
 				<% end %>
 			</div>
 		</div>

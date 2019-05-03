@@ -12,7 +12,7 @@ projects:
     sections: 
         -   text: TBA
             breakout: research-breakout.jpg
-            breakout_text: Many people tend to use pen and paper, others might just use their iPhone notes app. A private tumblr blog or twitter could be a journal. At the core of it, journaling is just writing. Many journaling apps suffer from feature-creeping on top of such a simple concept. From what I found, I didn't find an adequately executed solution for my needs. I figured this had a space in the landscape. 
+            breakout_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare ante at venenatis luctus. Aenean fringilla, nunc ac egestas aliquam, tellus dui tristique ligula, ut porttitor dui lectus non lorem. Quisque vehicula purus velit, ac faucibus risus venenatis quis. Mauris scelerisque orci ullamcorper interdum aliquam. Nulla felis magna, dictum pretium sem vitae, euismod bibendum dolor. Praesent non convallis purus. Nunc maximus eget tellus eu finibus. Donec mollis.
   #Decorum
   - name: Decorum
     alias: decorum

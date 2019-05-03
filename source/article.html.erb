@@ -5,7 +5,7 @@ work_items: true
 	<div class="fill"><div class="nav"><h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3></div></div>
 	<header id="article-header">
 		<div class="article-banner" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="0">
-			<img src="/images/work/<%= project.alias %>-banner.jpg">
+			<img src="/images/work/<%= project.alias %>/<%= project.alias %>-banner.jpg">
 		</div>
 		<div class="article-header-content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="200">
 			<h1><%= project.name %></h1>
@@ -32,7 +32,7 @@ work_items: true
 		<% project.sections.each_with_index do |section| %>
 		<% if section.image %>
 		<div class="article-image">				
-			<%= image_tag("/images/work/#{section.image}", { :"data-lity" => ""}) %>
+			<%= image_tag("/images/work/#{project.alias}/#{section.image}", { :"data-lity" => ""}) %>
 			<p class="caption"><%= section.caption %></p> 
 		</div>
 		<% end %>
@@ -48,7 +48,7 @@ work_items: true
 		<% end %>
 		<% if section.breakout %>
 		<div class="breakout">
-			<%= image_tag("/images/work/#{section.breakout}", { :"data-lity" => ""}) %>
+			<div class="breakout-image"><%= image_tag("/images/work/#{project.alias}/#{section.breakout}", { :"data-lity" => ""}) %></div>
 			<p class="caption"><%= section.breakout_text%></p>
 		</div>
 		<% end %>
@@ -62,7 +62,7 @@ work_items: true
 					<% if gallery.images %>
 					<% gallery.images.each_with_index do |image| %>
 					<div class="article-gallery-image">
-						<%= image_tag("/images/work/#{image.image_thumb}", { :"data-lity" => "", :"data-lity-target" => "/images/work/#{image.image_url}"}) %>
+						<%= image_tag("/images/work/#{project.alias}/#{image.image_thumb}", { :"data-lity" => "", :"data-lity-target" => "/images/work/#{image.image_url}"}) %>
 					</div>
 					<% end %>
 					<% end %>
