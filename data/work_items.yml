@@ -4,15 +4,27 @@ projects:
     alias: pygmy
     subhead: Product
     weight: 1
-    roles: Product Design, Research
-    tiny_description: TBA
-    intro: TBA
-    link: TBA
-    link_text: TBA
+    roles: Product Design, Branding, Research
+    tiny_description: A lightweight habit-forming journal for your new tab page.
+    intro: pygmy is aimed at those who have always wanted to keep a journal, but have trouble starting and maintaining the habit. My goals were figuring out the underlying reasons for this problem and clarify the motivations behind the desire to keep a journal.
+    link: https://www.figma.com/file/1YKSxmPHVudSQ8xU9ywXak/pygmy-feature-walkthrough?node-id=0%3A1
+    link_text: See On Figma
     sections: 
-        -   text: TBA
+        -   text: <h2>Background</h2><p>A journal has always been a simple yet powerful tool to gain a better sense of one's life. When I decided to try keeping one, I always ran into the problem of commitment issues and anxiety. Struggling with the thought of whether or not what I was writing was worth being an entry for the day. I would also frequently forget to write that day and then have to write up backlogs of entries to get out of some odd self-imposed diary debt. I saw this problem as something I wanted to try to figure out.</p>
+        -   text: <h1>Research</h1>
             breakout: research-breakout.jpg
-            breakout_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare ante at venenatis luctus. Aenean fringilla, nunc ac egestas aliquam, tellus dui tristique ligula, ut porttitor dui lectus non lorem. Quisque vehicula purus velit, ac faucibus risus venenatis quis. Mauris scelerisque orci ullamcorper interdum aliquam. Nulla felis magna, dictum pretium sem vitae, euismod bibendum dolor. Praesent non convallis purus. Nunc maximus eget tellus eu finibus. Donec mollis.
+            breakout_text: Many people tend to use pen and paper, others might just use their iPhone notes app. A private tumblr blog or twitter could be a journal. At the core of it, journaling is just writing. Many journaling apps suffer from feature-creeping on top of such a simple concept. From what I found, I didn't find an adequately executed solution for my needs. I figured this had a space in the landscape. 
+        -   text: <h2>Viability</h2><p>As much as I wanted to make something for myself, I mainly wanted to figure out what other people needed. I sought out to see if this was a problem that others faced as well. I spent time talking writing down my own motivations and habits as well as those of my friends and family. After our conversations, I had a few hypotheses and assumptions that I wanted to get data on for before thinking of a solution. So I drafted a <a href="https://app.usabilityhub.com/do/bd3be562e1af/cbcb">short survey</a> to get a better sense of other people's thoughts. <br><br>The assumptions I wanted to validate were that people:</p> <ul><li>Generally have an interest in journaling</li><li>Feel intimidated by the idea of starting</li><li>Use journals as a means to self-reflect</li><p>With these assumptions cleared, I would be able to have a better foundation to base my decisions on.</p>
+        -   image: pygmy-pies.jpg
+            caption: A few charts of the questions asked.
+            text: <p>I circulated the survey to friends who passed it on to their friends, followers on social media and Usability Hub's survey community. From these result earlier assumptions:</p><ul><li>Generally have an interest in journaling<ul><li>87% showed interest in keeping a journal but 63% say they've currently or never have kept one. This made habit building a main goal of the design.</li></ul></li><li>Feel intimidated by the idea of starting<ul><li>Half of people surveyed agreed with this sentiment which was enough for me to keep it in mind while designing. Among other things, this helped me keep the design simple and the aesthetic welcoming.</li></ul></li><li>Use journals as a means to self-reflect<ul><li>69% of people listed self-reflection as a motivation for keeping a journal. Along with reminiscing(67%) and record collection(65%). This influenced the decision and execution of archiving and searching journal entries.</li></ul></li></ul><p>A full set of results can be found <a href="https://app.usabilityhub.com/tests/bd3be562e1af/results/999d28a5919b">here</a></p>
+          -   text: <h1>Execution</h1>
+              breakout: placeholder.jpg
+              breakout_text: <p>After gathering some data and sitting with it for a bit, I went ahead and sketched some higher-level flows. Which then followed a cycle of ideation and sketching until I was comfortable with a design to flesh out. <br><br>Some of my ideas along with the most recent execution can be found <a href="https://www.figma.com/file/O30ofmvnIhV8RxQL3a4BpzyS/beachside?node-id=0%3A1">here</a></p>
+          -   text: <h2>Results</h2><p>After gathering some data and sitting with it for a bit, I went ahead and sketched some higher-level flows. Which then followed a cycle of ideation and sketching until I was comfortable with a design to flesh out. <br><br>Some of my ideas along with the most recent execution can be found <a href="https://www.figma.com/file/O30ofmvnIhV8RxQL3a4BpzyS/beachside?node-id=0%3A1">here</a></p>
+          -   text: <h2>Aesthetic</h2><p>I wanted to have fun with this project and introduce color in meaningful and intentional ways, all while keeping it subtle enough to reduce distraction.<br><br>Type and iconography contrast and legibility was a high priority. All colors used are at least WCAG AA compliant. In addition, accessibility options for text size and further contrast are provided to ensure a pleasurable experience for everyone.</p>
+          -   text: <h2>Development</h2><p>I consulted a few developers I'm close friends with and asked about options for tech I could use for this project. I don't expect to create a fully finished product, however, I'm giving it shot to see how far I can get!<br><br>To account for my lack of back-end knowledge, I decided to choose Hoodie as my solution for offline storage needs without needing to build a backend. React was an easy choice to decide to use given Pygmy's state-driven structure.</p>
+          -   text: <h2>Next Steps</h2><p>Pygmy is currently in a place now where rough implementation is going underway to get at the basic functionality and eventually become a workable MVP for testing purposes.</p>
   #Decorum
   - name: Decorum
     alias: decorum
