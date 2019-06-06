@@ -33,7 +33,7 @@ $desktop: "(min-width: 769px)";
 			flex-direction: column;
 			margin-bottom: 100px;
 		}
-		&:nth-child(2) * {
+		&:nth-child(3) * {
 			cursor: url(/images/assets/cursor.svg), auto;
 		}
 		.thumbnail { 
@@ -123,9 +123,9 @@ $desktop: "(min-width: 769px)";
 				color: $h;
 				font-size: 2.25rem;
 				margin: 0;
+				margin-bottom: 5px;
 				line-height: 120%;
 				display: inline-block;
-				white-space: pre;
 				@media #{$mobile} {
 					font-size: 8vw;
 				}

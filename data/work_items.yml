@@ -1,9 +1,34 @@
 projects:
-  #Decorum
-  - name: Decorum
+  #pygmy
+  - name: pygmy
+    alias: pygmy
     subhead: Product
     weight: 1
-    url: decorum
+    roles: Product Design, Branding, Research
+    tiny_description: A lightweight habit-forming journal for your new tab page.
+    intro: pygmy is aimed at those who have always wanted to keep a journal, but have trouble starting and maintaining the habit. My goals were figuring out the underlying reasons for this problem and clarify the motivations behind the desire to keep a journal.
+    link: https://www.figma.com/proto/1YKSxmPHVudSQ8xU9ywXak/pygmy-feature-walkthrough?node-id=126%3A977&viewport=640%2C287%2C0.14114706218242645&scaling=min-zoom
+    link_text: See On Figma
+    sections: 
+        -   text: <h2>Background</h2><div class="divider"></div><p>A journal has always been a simple yet powerful tool to gain a better sense of one's life. When I decided to try keeping one, I always ran into the problem of commitment issues and anxiety. Struggling with the thought of whether or not what I was writing was worth being an entry for the day. I would also frequently forget to write that day and then have to write up backlogs of entries to get out of some odd self-imposed diary debt.</p>
+        -   header: <h4>Research</h4>
+            breakout: research-breakout.jpg
+            breakout_text: Many people tend to use pen and paper, others might just use their iPhone notes app. A private tumblr blog or twitter could be a journal. At the core of it, journaling is just writing. Many journaling apps suffer from feature-creeping on top of such a simple concept. From what I found, I didn't find an adequately executed solution for my needs. I figured this had a space in the landscape. 
+        -   text: <h2>Viability</h2><div class="divider"></div><p>As much as I wanted to make something for myself, I mainly wanted to figure out what other people needed. I sought out to see if this was a problem that others faced as well. I spent time talking writing down my own motivations and habits as well as those of my friends and family. After our conversations, I had a few hypotheses and assumptions that I wanted to get data on for before thinking of a solution. So I drafted a <a href="https://app.usabilityhub.com/do/bd3be562e1af/cbcb" target="_blank">short survey</a> to get a better sense of other people's thoughts. <br><br>The assumptions I wanted to validate were that people:</p> <ul><li>Generally have an interest in journaling</li><li>Feel intimidated by the idea of starting</li><li>Use journals as a means to self-reflect</li><p>With these assumptions cleared, I would be able to have a better foundation to base my decisions on.</p>
+        -   image: pygmy-pies.jpg
+            caption: A few charts of the questions asked.
+            text: <p>I circulated the survey to friends who passed it on to their friends, followers on social media and Usability Hub's survey community. From these results I was able to paint a general picture of what was needed. Referring back to the earlier assumptions:</p><ul><li>Generally have an interest in journaling<ul><li>87% showed interest in keeping a journal but 63% say they've currently or never have kept one. This made habit building a main goal of the design.</li></ul></li><li>Feel intimidated by the idea of starting<ul><li>Half of people surveyed agreed with this sentiment which was enough for me to keep it in mind while designing. Among other things, this helped me keep the design simple and the aesthetic welcoming.</li></ul></li><li>Use journals as a means to self-reflect<ul><li>69% of people listed self-reflection as a motivation for keeping a journal. Along with reminiscing(67%) and record collection(65%). This influenced the decision and execution of archiving and searching journal entries.</li></ul></li></ul><p>A full set of results can be found <a href="https://app.usabilityhub.com/tests/bd3be562e1af/results/999d28a5919b" target="_blank">here</a>.</p>
+        -   header: <h4>Execution</h4>
+            breakout: pygmy-sketches.jpg
+            breakout_text: After gathering some data and sitting with it for a bit, I went ahead and sketched some higher-level flows. Which then followed a cycle of ideation and sketching until I was comfortable with a design to flesh out. <br><br>Some of my ideas along with the most recent execution can be found <a href="https://www.figma.com/file/O30ofmvnIhV8RxQL3a4BpzyS/beachside?node-id=0%3A1" target="_blank">here</a>.
+        -   text: <h2>Aesthetic</h2><p>I wanted to have fun with this project and introduce color in meaningful and intentional ways, all while keeping it subtle enough to reduce distraction.<br><br>Type and iconography contrast and legibility was a high priority. In addition, accessibility options for text size and further contrast are provided to ensure a pleasurable experience for everyone.</p>
+        -   text: <h2>Development</h2><p>I consulted a few developers I'm close friends with and asked about options for tech I could use for this project. I don't expect to create a fully finished product, however, I'm giving it shot to see how far I can get!<br><br>To account for my lack of back-end knowledge, I decided to choose <a href="http://hood.ie/" target="_blank">Hoodie</a> as my solution for offline storage needs without needing to build a backend. React was an easy choice to decide to use given Pygmy's state-driven structure.</p>
+        -   text: <h2>Next Steps</h2><p>Pygmy is currently in a place now where rough implementation is going underway to get at the basic functionality and eventually become a workable MVP for testing purposes.</p>
+  #Decorum
+  - name: Decorum
+    alias: decorum
+    subhead: Product
+    weight: 2
     roles: Product Design
     contributors:
         -   name: Jeffrey Tao
@@ -14,9 +39,6 @@ projects:
             portfolio: http://huang-hobbs.co/
     tiny_description: A structured thread based messaging client made for organizing and accessing conversations.
     intro: Decorum is a revisited look into structured, hierarchical communication for those looking to easily, circulate, retrieve and archive information. Think the tree-structure of a forum with the familiarity of a chat client.
-    image_path: work/decorum
-    thumbnail: decorum-thumbnail.jpg
-    banner: decorum-banner.jpg
     link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=74%3A3471&scaling=contain
     link_text: See On Figma
     sections:
@@ -38,17 +60,19 @@ projects:
                     link_text: Protoype 3
                 -   link: https://www.figma.com/file/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum-v.3
                     link_text: Protoype 4
+                -   link: https://www.figma.com/file/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=0%3A1
+                    link_text: Current Version
         -   text: <h2>Where we are</h2><div class="divider"></div><p>Currently, Decorum is being developed our spare time. Since we're now past prototyping, the product is being built and slated for release sometime next year.</p>
   #VH1/Logo
   - name: VH1 & LogoTV Digital
+    alias: vh1-logo
     subhead: Network
-    weight: 2
-    url: vh1
+    weight: 3
     roles: Digital Design, Animation, Web Design, Product Design
-    tiny_description: Networks focused around pop culture, music and entertainment.
+    tiny_description: Networks focused around pop culture, activism, music, and entertainment.
     intro: 
     sections:
-        -   text: <h2>What we do</h2><div class="divider"></div><p>Belonging to a small team of designers, we're tasked with transferring the brand voice of VH1 and Logo on-air content to the digital space through its social media and websites. The nature of this work varied heavily from project to project. One project could be creating a full social campaign to publicize an upcoming show or making animated instagram posts for an initiative the network is pushing. Another would be building a <a href="http://www.vh1.com/shows/the-breaks/interactive-map">web app</a> that viewers could engage with that supplements a show's content. We also have created prototypes of our networks' sites for our product teams to implement more accurate styling to new pages and features.</p><p>Since the type of work we do changes frequently, we're molded to be a sort of in-house agency for our networks with a well-rounded set of talents.</p>
+        -   text: <h2>What we do</h2><div class="divider"></div><p>Belonging to a small team of designers, we're tasked with transferring the brand voice of VH1 and Logo on-air content to the digital space through its social media and websites. The nature of this work varied heavily from project to project. One project could be creating a full social campaign to publicize an upcoming show or making animated instagram posts for an initiative the network is pushing. Another would be building a <a href="http://www.vh1.com/shows/the-breaks/interactive-map" arget="_blank">web app</a> that viewers could engage with that supplements a show's content. We also have created prototypes of our networks' sites for our product teams to implement more accurate styling to new pages and features.</p><p>Since the type of work we do changes frequently, we're molded to be a sort of in-house agency for our networks with a well-rounded set of talents.</p>
         -   text: <p>Below are a few selected works from my time there.</p>
         -   gallery:
             -   header: RuPaul's Drag Race
@@ -84,14 +108,11 @@ projects:
                         image_thumb: thumbnails/spirit-day-facebook.jpg
                     -   image_url: coming-out-day-facebook.jpg
                         image_thumb: thumbnails/coming-out-day-facebook.jpg
-    image_path: work/vh1-logo
-    banner: vh1-logo-banner.jpg
-    thumbnail: vh1-logo-thumbnail.jpg
   #Anthologist
   - name: the Anthologist
+    alias: anthologist
     subhead: Publication
-    weight: 3
-    url: the-anthologist
+    weight: 4
     roles: Brand Design, Publication Design, Web Design 
     tiny_description: Rutgers University's literary magazine that publishes a collection of curated and reviewed written and visual work contributed by the Rutgers student body. 
     intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be bound and reproduced in a magazine.
@@ -113,14 +134,11 @@ projects:
                         image_thumb: thumbnails/antho79-cover.jpg
     link: https://issuu.com/theantho
     link_text: See on Issuu
-    image_path: work/the-anthologist
-    banner: anthologist-banner.jpg
-    thumbnail: the-anthologist-thumbnail.jpg
   #HackRU
   - name: HackRU
+    alias: hackru
     subhead: Hackathon
-    weight: 4
-    url: hackru
+    weight: 5
     roles: Brand Design, Web Design, Print Design
     tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
     intro: Rutgers University's hackathon held every semester. The event holds over 1000 students from around the nation, giving students 24 hours to build whatever they want with the skills they bring.
@@ -165,14 +183,11 @@ projects:
                     link_text: Facebook   
                 -   link: https://twitter.com/thehackru?lang=en
                     link_text: Twitter   
-    image_path: work/hackru
-    banner: hackru-banner.jpg
-    thumbnail: hackru-thumbnail.jpg
   #Anchorage
   - name: Anchorage
+    alias: anchorage
     subhead: Product
-    weight: 5
-    url: anchorage
+    weight: 6
     roles: Product Design
     contributors:
         -   name: Maxwell Huang-Hobbs
@@ -190,9 +205,6 @@ projects:
             text: <p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><br><br>
         -   image: anchorage-live.webm
             text: <p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
-    image_path: work/anchorage
-    banner: anchorage-banner.jpg
-    thumbnail: anchorage-thumbnail.jpg
     link: https://github.com/EnigmaSM/anchorage
     link_text: Github Repo
     
