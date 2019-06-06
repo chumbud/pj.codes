@@ -30,6 +30,29 @@ work_items: true
 	<% if project.sections %>
 	<div id="article-extended" data-aos="fade-up" data-aos-anchor="article-header" data-aos-easing="ease-out-quad" data-aos-duration="400" data-aos-delay="400">
 		<% project.sections.each_with_index do |section| %>
+		<% if section.header %>
+		  <div class="topper">
+		    <svg xmlns="http://www.w3.org/2000/svg" width="102.20703" height="33.85472" viewBox="0 0 102.20703 33.85472">
+		      <g id="Layer_2" data-name="Layer 2">
+		        <g id="Layer_1-2" data-name="Layer 1">
+		          <g>
+		            <path d="M71.09827,14.00885l-5.37006.93392a.85772.85772,0,0,1-.70044-.23348L57.55638,7.00442A.85773.85773,0,0,1,57.3229,6.304L58.95726.70044c.23348-.467.467-.70044.93392-.70044.23348,0,.23348.23348.467.23348l11.44056,12.141a1.06039,1.06039,0,0,1,0,1.1674C71.56523,13.77537,71.33175,14.00885,71.09827,14.00885Z" fill="#ffd2d2"/>
+		            <path d="M55.45505,9.33924,45.18189,13.30841a2.81353,2.81353,0,0,0-1.1674,1.1674L37.24354,28.95163a2.10485,2.10485,0,0,0-.23348,1.1674l.23348,2.56829L46.81626,21.9472v-.467A2.33481,2.33481,0,1,1,49.15107,23.815h-.23348L38.87791,33.85472h2.10133a1.40374,1.40374,0,0,0,.93392-.23348l14.24233-6.0705a2.8135,2.8135,0,0,0,1.1674-1.1674l4.66962-10.27316a2.13131,2.13131,0,0,0-.467-2.56829L57.55637,9.33923A3.15692,3.15692,0,0,0,55.45505,9.33924Z" fill="#ffd2d2"/>
+		          </g>
+		          <g>
+		            <g>
+		              <rect x="-0.99268" y="16.42751" width="9.19239" height="0.99989" transform="translate(-10.91407 7.50601) rotate(-45)" fill="#ffd2d2"/>
+		              <rect x="3.10357" y="12.33126" width="0.99989" height="9.19239" transform="translate(-10.91407 7.50601) rotate(-45)" fill="#ffd2d2"/>
+		            </g>
+		            <rect x="94.00732" y="16.42751" width="9.19239" height="0.99989" transform="translate(16.91078 74.68115) rotate(-45)" fill="#ffd2d2"/>
+		            <rect x="98.10357" y="12.33126" width="0.99989" height="9.19239" transform="translate(16.91078 74.68115) rotate(-45)" fill="#ffd2d2"/>
+		          </g>
+		        </g>
+		      </g>
+		    </svg>
+		    <h4><%= section.header %></h4>
+		  </div>
+		<% end %>
 		<% if section.image %>
 		<div class="article-image">				
 			<%= image_tag("/images/work/#{project.alias}/#{section.image}", { :"data-lity" => ""}) %>
