@@ -25,6 +25,12 @@ work_items: true
 				<%= link_to(project.link_text, project.link, target: '_blank') %>
 			</div>
 			<% end %>
+			<% if project.supplement_link %>
+			<div class="article-project-link">
+				<%= link_to(project.supplement_link_text, project.supplement_link, target: '_blank') %>
+			</div>
+			<% end %>
+
 		</div>
 	</header>
 	<% if project.sections %>

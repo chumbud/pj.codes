@@ -4,17 +4,19 @@ projects:
     alias: pygmy
     subhead: Product
     weight: 1
-    roles: Product Design, Branding, Research
+    roles: Research, Design
     tiny_description: A lightweight habit-forming journal for your new tab page.
     intro: pygmy is aimed at those who have always wanted to keep a journal, but have trouble starting and maintaining the habit. My goals were figuring out the underlying reasons for this problem and clarify the motivations behind the desire to keep a journal.
     link: https://www.figma.com/proto/1YKSxmPHVudSQ8xU9ywXak/pygmy-feature-walkthrough?node-id=126%3A977&viewport=640%2C287%2C0.14114706218242645&scaling=min-zoom
-    link_text: See On Figma
+    link_text: Walkthrough
+    supplement_link: https://www.figma.com/file/O30ofmvnIhV8RxQL3a4BpzyS/pygmy?node-id=0%3A1
+    supplement_link_text: Figma Project
     sections: 
         -   text: <h2>Background</h2><div class="divider"></div><p>A journal has always been a simple yet powerful tool to gain a better sense of one's life. When I decided to try keeping one, I always ran into the problem of commitment issues and anxiety. Struggling with the thought of whether or not what I was writing was worth being an entry for the day. I would also frequently forget to write that day and then have to write up backlogs of entries to get out of some odd self-imposed diary debt.</p>
         -   header: <h4>Research</h4>
             breakout: research-breakout.jpg
             breakout_text: Many people tend to use pen and paper, others might just use their iPhone notes app. A private tumblr blog or twitter could be a journal. At the core of it, journaling is just writing. Many journaling apps suffer from feature-creeping on top of such a simple concept. From what I found, I didn't find an adequately executed solution for my needs. I figured this had a space in the landscape. 
-        -   text: <h2>Viability</h2><div class="divider"></div><p>As much as I wanted to make something for myself, I mainly wanted to figure out what other people needed. I sought out to see if this was a problem that others faced as well. I spent time talking writing down my own motivations and habits as well as those of my friends and family. After our conversations, I had a few hypotheses and assumptions that I wanted to get data on for before thinking of a solution. So I drafted a <a href="https://app.usabilityhub.com/do/bd3be562e1af/cbcb" target="_blank">short survey</a> to get a better sense of other people's thoughts. <br><br>The assumptions I wanted to validate were that people:</p> <ul><li>Generally have an interest in journaling</li><li>Feel intimidated by the idea of starting</li><li>Use journals as a means to self-reflect</li><p>With these assumptions cleared, I would be able to have a better foundation to base my decisions on.</p>
+        -   text: <h2>Viability</h2><div class="divider"></div><p>As much as I wanted to make something for myself, I mainly wanted to figure out what other people needed. I sought out to see if this was a problem that others faced as well. I spent time talking writing down my own motivations and habits as well as those of my friends and family. After our conversations, I had a few hypotheses and assumptions that I wanted to get data on for before thinking of a solution. So I drafted a <a href="https://app.usabilityhub.com/do/bd3be562e1af/cbcb" target="_blank">short survey</a> to get a better sense of other people's thoughts. <br><br>The assumptions I wanted to validate were that people:</p> <ul><li>Generally have an interest in journaling</li><li>Feel intimidated by the idea of starting</li><li>Use journals as a means to self-reflect</li></ul><p>With these assumptions cleared, I would be able to have a better foundation to base my decisions on.</p>
         -   image: pygmy-pies.jpg
             caption: A few charts of the questions asked.
             text: <p>I circulated the survey to friends who passed it on to their friends, followers on social media and Usability Hub's survey community. From these results I was able to paint a general picture of what was needed. Referring back to the earlier assumptions:</p><ul><li>Generally have an interest in journaling<ul><li>87% showed interest in keeping a journal but 63% say they've currently or never have kept one. This made habit building a main goal of the design.</li></ul></li><li>Feel intimidated by the idea of starting<ul><li>Half of people surveyed agreed with this sentiment which was enough for me to keep it in mind while designing. Among other things, this helped me keep the design simple and the aesthetic welcoming.</li></ul></li><li>Use journals as a means to self-reflect<ul><li>69% of people listed self-reflection as a motivation for keeping a journal. Along with reminiscing(67%) and record collection(65%). This influenced the decision and execution of archiving and searching journal entries.</li></ul></li></ul><p>A full set of results can be found <a href="https://app.usabilityhub.com/tests/bd3be562e1af/results/999d28a5919b" target="_blank">here</a>.</p>
@@ -29,7 +31,7 @@ projects:
     alias: decorum
     subhead: Product
     weight: 2
-    roles: Product Design
+    roles: Design
     contributors:
         -   name: Jeffrey Tao
             portfolio: http://jefftao.com/
