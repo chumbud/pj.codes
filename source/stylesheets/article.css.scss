@@ -193,9 +193,9 @@ $tablet: "(max-width: 768px)";
 			}
 		}
 		p > a {
-			text-decoration: underline;
+			text-decoration: none;
 			&:hover {
-				text-decoration: none;
+				text-decoration: underline;
 			}
 		}
 	}
@@ -216,9 +216,9 @@ $tablet: "(max-width: 768px)";
 			margin: 0 0 0 40px;
 			@media #{$tablet} {margin: 40px 0 0 0; max-width: 100%;}
 			a {
-				text-decoration: underline; 
+				text-decoration: none; 
 				&:hover {
-					text-decoration: none;
+					text-decoration: underline;
 				}
 			}
 		}

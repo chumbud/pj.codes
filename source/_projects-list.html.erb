@@ -1,17 +1,16 @@
 <div class="project-list"> 
 	<% projects.each do |project| %>
-	<article class="project-list-item pl-<%= project.url %>">
+	<article class="project-list-item pl-<%= project.alias %>">
 		<div class="info" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="200">
 			<div class="wrapper">
 				<% link_to("/#{path}/#{project.alias}.html") do %>
-				<div data-num=<%= project.weight%> class="weight" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="1000" data-aos-delay="200"></div>
+				<div data-num="<%= project.weight%>" class="weight" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="1000" data-aos-delay="200"></div>
 				<div class="title-head">
-
 					<h2><%= project.name %></h2>
-
-					<h3><%= project.subhead %></h3>
+					<!--<h3><%= project.subhead %></h3>-->
 				</div>
 				<p><%= project.tiny_description%></p>
+				<span class="faux-link">check it out</span>
 				<% end %>
 			</div>
 		</div>

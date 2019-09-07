@@ -26,50 +26,11 @@ projects:
         -   text: <h2>Aesthetic</h2><p>I wanted to have fun with this project and introduce color in meaningful and intentional ways, all while keeping it subtle enough to reduce distraction.<br><br>Type and iconography contrast and legibility was a high priority. In addition, accessibility options for text size and further contrast are provided to ensure a pleasurable experience for everyone.</p>
         -   text: <h2>Development</h2><p>I consulted a few developers I'm close friends with and asked about options for tech I could use for this project. I don't expect to create a fully finished product, however, I'm giving it shot to see how far I can get!<br><br>To account for my lack of back-end knowledge, I decided to choose <a href="http://hood.ie/" target="_blank">Hoodie</a> as my solution for offline storage needs without needing to build a backend. React was an easy choice to decide to use given Pygmy's state-driven structure.</p>
         -   text: <h2>Next Steps</h2><p>Pygmy is currently in a place now where rough implementation is going underway to get at the basic functionality and eventually become a workable MVP for testing purposes.</p>
-  #Decorum
-  - name: Decorum
-    alias: decorum
-    subhead: Product
-    weight: 2
-    roles: Design
-    contributors:
-        -   name: Jeffrey Tao
-            portfolio: http://jefftao.com/
-        -   name: Yujin Ariza
-            portfolio: http://yujinariza.com/
-        -   name: Maxwell Huang-Hobbs
-            portfolio: http://huang-hobbs.co/
-    tiny_description: A structured thread based messaging client made for organizing and accessing conversations.
-    intro: Decorum is a revisited look into structured, hierarchical communication for those looking to easily, circulate, retrieve and archive information. Think the tree-structure of a forum with the familiarity of a chat client.
-    link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=74%3A3471&scaling=contain
-    link_text: See On Figma
-    sections:
-        -   text: <h2>My role</h2><p>My contribution to this project has been handling all UX and visual design efforts.</p><br>
-        -   image: my-friends-talk-too-much.jpg
-            caption: Our slack group talks a lot...
-            text: <h2>The Problem</h2><div class="divider"></div><p>Decorum is trying to occupy an odd space. Imagine you and 10 of your friends are talking in a group chat about a topic. Frequently, talking about a topic devolves into talking about related subtopics. We defined this as "cross-talk". Cross-talk derails and makes a conversation difficult to keep up with. Especially when you're reading the conversation after the fact. Other solutions like Slack have tried adding threads to keep conversations organized, but Slack threads can get lost, aren't divisible and are generally not friendly for discussions longer than a few lines.</p><p>Additionally, If you use something like Slack or Email you're expected to answer right away, or at least it feels that way. This makes communication platforms addicting, even pressuring to use. We want Decorum to take that feeling away, so that you're pulling actionable items instead of being pushed them. This way you can focus on what you need to do.</p>
-        -   text: <h2>Who's it for?</h2><div class="divider"></div><p>Decorum is mainly for smaller groups of people. Groups of people who are looking for structure in their communication.</p><p>Examples would be, niche hobby communities, teams within an organization, large friend groups, research groups or clubs. </p>
-        -   text: <h2>What does success look like?</h2><div class="divider"></div><p>We want Decorum to be a product people get satisfaction out of using. This also means helping people to feel empowered to talk on their own and not be burdened by pressures to use a platform.</p><p>So to help alleviate these issues, our main goals for the product are to be:</p><ul><li>organized, sort of like email.</li><li>approachable, sort of like a chat client.</li><li>asynchronous, sort of like a forum.</li></ul><p>From the research we've done, nothing like this exists.</p><br>
-        -   image: decorum-process.jpg
-            caption: A very early initial brainstorm of Decorum.
-            text: <h2>Process</h2><div class="divider"></div><p>A great amount of effort went into defining the problem. At first we thought we knew what we wanted, we assumed communication was a pretty straightfoward problem. However, after a bunch of prototypes and ideas we couldn't quite see a clear picture to a solution. So after a lot of discussion we were able to distill what we wanted into a certain feeling we want Decorum to achieve.</p><p>We view a chat client akin to being in a room with friends, actively being present in a discussion. We want Decorum to feel like sitting in the park with a community of people you're familiar with. Being able to feel present, but also not necessarily needing to feel involved. </p><p>My friends and I find this feeling in social centers of old school MMORPGs or old community BBS forums. It's this feeling of being able to have a high level presence of a community while also feeling no pressure to jump into and out of a conversation. </p><p>Check out some of the ideas we've gone through so far:</p>
-            links: 
-                -   link: https://www.figma.com/file/PRdErs08OPjZ5LffIltYuaQ4/Decorum-v.10
-                    link_text: Protoype 1
-                -   link: https://www.figma.com/file/cQwZXerwC2wMSU6dJMQAg4p3/Decorum-v.15
-                    link_text: Protoype 2
-                -   link: https://www.figma.com/file/ciStDX1Mead5fvoLnA03iSEa/Decorum-v.20
-                    link_text: Protoype 3
-                -   link: https://www.figma.com/file/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum-v.3
-                    link_text: Protoype 4
-                -   link: https://www.figma.com/file/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=0%3A1
-                    link_text: Current Version
-        -   text: <h2>Where we are</h2><div class="divider"></div><p>Currently, Decorum is being developed our spare time. Since we're now past prototyping, the product is being built and slated for release sometime next year.</p>
-  #VH1/Logo
-  - name: VH1 & LogoTV Digital
-    alias: vh1-logo
+  #MTV/VH1/Logo
+  - name: MTV & VH1 Digital
+    alias: mtv-vh1
     subhead: Network
-    weight: 3
+    weight: 2
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: Networks focused around pop culture, activism, music, and entertainment.
     intro: 
@@ -110,6 +71,45 @@ projects:
                         image_thumb: thumbnails/spirit-day-facebook.jpg
                     -   image_url: coming-out-day-facebook.jpg
                         image_thumb: thumbnails/coming-out-day-facebook.jpg
+  #Decorum
+  - name: Decorum
+    alias: decorum
+    subhead: Product
+    weight: 3
+    roles: Design
+    contributors:
+        -   name: Jeffrey Tao
+            portfolio: http://jefftao.com/
+        -   name: Yujin Ariza
+            portfolio: http://yujinariza.com/
+        -   name: Maxwell Huang-Hobbs
+            portfolio: http://huang-hobbs.co/
+    tiny_description: A structured thread based messaging client made for organizing and accessing conversations.
+    intro: Decorum is a revisited look into structured, hierarchical communication for those looking to easily, circulate, retrieve and archive information. Think the tree-structure of a forum with the familiarity of a chat client.
+    link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=74%3A3471&scaling=contain
+    link_text: See On Figma
+    sections:
+        -   text: <h2>My role</h2><p>My contribution to this project has been handling all UX and visual design efforts.</p><br>
+        -   image: my-friends-talk-too-much.jpg
+            caption: Our slack group talks a lot...
+            text: <h2>The Problem</h2><div class="divider"></div><p>Decorum is trying to occupy an odd space. Imagine you and 10 of your friends are talking in a group chat about a topic. Frequently, talking about a topic devolves into talking about related subtopics. We defined this as "cross-talk". Cross-talk derails and makes a conversation difficult to keep up with. Especially when you're reading the conversation after the fact. Other solutions like Slack have tried adding threads to keep conversations organized, but Slack threads can get lost, aren't divisible and are generally not friendly for discussions longer than a few lines.</p><p>Additionally, If you use something like Slack or Email you're expected to answer right away, or at least it feels that way. This makes communication platforms addicting, even pressuring to use. We want Decorum to take that feeling away, so that you're pulling actionable items instead of being pushed them. This way you can focus on what you need to do.</p>
+        -   text: <h2>Who's it for?</h2><div class="divider"></div><p>Decorum is mainly for smaller groups of people. Groups of people who are looking for structure in their communication.</p><p>Examples would be, niche hobby communities, teams within an organization, large friend groups, research groups or clubs. </p>
+        -   text: <h2>What does success look like?</h2><div class="divider"></div><p>We want Decorum to be a product people get satisfaction out of using. This also means helping people to feel empowered to talk on their own and not be burdened by pressures to use a platform.</p><p>So to help alleviate these issues, our main goals for the product are to be:</p><ul><li>organized, sort of like email.</li><li>approachable, sort of like a chat client.</li><li>asynchronous, sort of like a forum.</li></ul><p>From the research we've done, nothing like this exists.</p><br>
+        -   image: decorum-process.jpg
+            caption: A very early initial brainstorm of Decorum.
+            text: <h2>Process</h2><div class="divider"></div><p>A great amount of effort went into defining the problem. At first we thought we knew what we wanted, we assumed communication was a pretty straightfoward problem. However, after a bunch of prototypes and ideas we couldn't quite see a clear picture to a solution. So after a lot of discussion we were able to distill what we wanted into a certain feeling we want Decorum to achieve.</p><p>We view a chat client akin to being in a room with friends, actively being present in a discussion. We want Decorum to feel like sitting in the park with a community of people you're familiar with. Being able to feel present, but also not necessarily needing to feel involved. </p><p>My friends and I find this feeling in social centers of old school MMORPGs or old community BBS forums. It's this feeling of being able to have a high level presence of a community while also feeling no pressure to jump into and out of a conversation. </p><p>Check out some of the ideas we've gone through so far:</p>
+            links: 
+                -   link: https://www.figma.com/file/PRdErs08OPjZ5LffIltYuaQ4/Decorum-v.10
+                    link_text: Protoype 1
+                -   link: https://www.figma.com/file/cQwZXerwC2wMSU6dJMQAg4p3/Decorum-v.15
+                    link_text: Protoype 2
+                -   link: https://www.figma.com/file/ciStDX1Mead5fvoLnA03iSEa/Decorum-v.20
+                    link_text: Protoype 3
+                -   link: https://www.figma.com/file/VnCxmVO5uNz1EWgnOpC0x8QX/Decorum-v.3
+                    link_text: Protoype 4
+                -   link: https://www.figma.com/file/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=0%3A1
+                    link_text: Current Version
+        -   text: <h2>Where we are</h2><div class="divider"></div><p>Currently, Decorum is being developed our spare time. Since we're now past prototyping, the product is being built and slated for release sometime next year.</p>
   #Anthologist
   - name: the Anthologist
     alias: anthologist
@@ -205,7 +205,7 @@ projects:
         -   text: <p>By the end of the hackathon, my team and I had delivered a prototype with a few functional widgets and working customization functions. The prototype allowed for color customizability of widget UI and custom backgrounds. The widgets themselves also had the ability to be placed anywhere within a grid based system that organized the placement of the widgets. Widgets could follow a 2x2, 2x1 or 1x1 size within the grid system, these units being user specified as well.</p><br><br>
         -   image: anchorage-panel.jpg
             text: <p>Initially, the purpose of this project was to create an OS and browser agnostic way to allow users to have a high level of customization for their homepage. Although, the applications for the project extend past this initial purpose. We began to realize that this could be brought to other levels of user needs. For example, on an enterprise level, companies can make their own homepage with company branding, create widgets to fit the needs of their employees and deliver a company branded homepage to all browsers, regardless of operating system.</p><br><br>
-        -   image: anchorage-live.webm
+        -   video: anchorage-live.webm
             text: <p>Currently, Anchorage is being polished and developed for an initial release into the Chrome Web Store as a Chrome extension. </p>
     link: https://github.com/EnigmaSM/anchorage
     link_text: Github Repo

@@ -2,7 +2,7 @@
 work_items: true
 ---
 <section id="article">
-	<div class="fill"><div class="nav"><h3 class="name"><%= link_to('back', '/', class:'back-button') %></h3></div></div>
+	<div class="fill"><div class="nav"><h3 class="name"><%= link_to('take me back', '/', class:'back-button') %></h3></div></div>
 	<header id="article-header">
 		<div class="article-banner" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="0">
 			<img src="/images/work/<%= project.alias %>/<%= project.alias %>-banner.jpg">
@@ -62,6 +62,12 @@ work_items: true
 		<% if section.image %>
 		<div class="article-image">				
 			<%= image_tag("/images/work/#{project.alias}/#{section.image}", { :"data-lity" => ""}) %>
+			<p class="caption"><%= section.caption %></p> 
+		</div>
+		<% end %>
+		<% if section.video %>
+		<div class="article-video">				
+			<video src="/images/work/<%= project.alias%>/<%= section.video%>" autoplay loop controls></video>
 			<p class="caption"><%= section.caption %></p> 
 		</div>
 		<% end %>

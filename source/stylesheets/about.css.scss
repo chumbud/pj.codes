@@ -8,7 +8,11 @@ $secondary: #ffd2d2;
 $mobile: "(max-width: 768px)";
 
 .about {
-	max-width: 535px;
+	max-width: 800px;
+	padding-bottom: 4rem;
+	p {
+		font-size: 1.5rem;
+	}
 }
 .about-links {
 	display: block;
@@ -31,6 +35,50 @@ $mobile: "(max-width: 768px)";
 }
 .links > a:hover, .about p > a:hover {
 	text-decoration: underline;
+}
+#copy {
+	position: relative;
+	cursor: pointer;
+}
+#copy::before {
+	content: 'click to copy';
+	font-family: 'IBM Plex Mono';
+	text-align: center;
+	background-color: $main;
+	color: white;
+	padding: .4rem 1.2rem;
+	border-radius: .5rem;
+	font-size: .6rem;
+	opacity: 0;
+	white-space: pre;
+	word-wrap: none;
+	position: absolute;
+	transform: translate(0, -33px);
+	transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+	pointer-events: none;
+}
+#copy::after {
+	content: '';
+	width: .6rem;
+	height: .6rem;
+	position: absolute;
+	background-color: $main;
+	opacity: 0;
+	left: 50%;
+	transform: translate(0, -14px) rotate(45deg);
+	transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+	pointer-events: none;
+}
+#copy:hover::before {
+	opacity: 1;
+	transform: translate(0, -35px);
+}
+#copy:hover::after {
+	opacity: 1;
+	transform: translate(0, -14px) rotate(45deg);
+}
+#copy.copied::before {
+	content: 'copied! ✌️';
 }
 .tiny-btn {
 	color: $main;
@@ -64,6 +112,7 @@ $mobile: "(max-width: 768px)";
 		}
 	}
 	.read-more {
+		font-family: 'IBM Plex Mono';
 		font-size: .75rem;
 		position: relative;
 		&:before {

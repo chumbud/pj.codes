@@ -6,3 +6,4 @@
 .ai
 build/
 *.psd
+.bat

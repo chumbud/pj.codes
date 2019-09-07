@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- hi :) -->
 <html>
 <head>
 	<title>PJ Rosa</title>
@@ -40,7 +41,7 @@
 	<% end %>
 
 	<%= stylesheet_link_tag "base", "about", "work", "article", "lity.min", "aos", "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" %>
-	<%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js", "functions", "lity.min", "aos" %>
+	<%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js", "functions", "lity.min", "aos"%>
 	<script type="text/javascript">
 		document.addEventListener('DOMContentLoaded', function() {
 			AOS.init({
@@ -48,11 +49,10 @@
 			});
 		});
 	</script>
-
 </head>
 <body>
 	<div class="container">
-		<h3 class="home name"><%= link_to("PJ Rosa", "/") %><!--<div class="right"><%= link_to("Work", "/") %><%= link_to("Journal", "/journal") %></div>--></h3>
+		<!--<h3 class="home name"><%= link_to("PJ Rosa", "/") %><div class="right"><%= link_to("Work", "/") %><%= link_to("Journal", "/journal") %></div></h3>-->
 		<%= yield %>  
 	</div>
 	<footer>
