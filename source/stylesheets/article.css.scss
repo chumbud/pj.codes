@@ -238,7 +238,7 @@ $tablet: "(max-width: 768px)";
 			justify-content: center;
 			cursor: pointer;
 			.article-gallery-image {
-				width: calc(100% / 3);
+				width: calc(100% / 4);
 				img {
 					-webkit-backface-visibility: hidden;
 					position: relative;
@@ -247,6 +247,16 @@ $tablet: "(max-width: 768px)";
 					transition: opacity .2s ease-in-out;
 					&:hover {
 						opacity: .7;
+					}
+				}
+			}
+			&.video {
+				justify-content: space-between;
+				.article-video {
+					width: calc(33% - .1rem);
+					margin-bottom: .1rem;
+					video {
+						width: 100%;
 					}
 				}
 			}
