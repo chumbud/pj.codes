@@ -10,8 +10,10 @@ work_items: true
 		<div class="article-header-content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800" data-aos-delay="200">
 			<h1><%= project.name %></h1>
 			<h2><%= project.subhead %> - Role(s): <%= project.roles %></h2>
+			<% if project.intro %>
 			<div class="divider"></div>
 			<p><%= project.intro %></p>
+			<% end %>
 			<% if project.contributors %>
 			<div class="link-section">
 				<p>Contributors:</p>
@@ -71,9 +73,11 @@ work_items: true
 			<p class="caption"><%= section.caption %></p> 
 		</div>
 		<% end %>
+		<% if section.text %>
 		<div class="article-text">
 			<%= section.text %>
 		</div>
+		<% end %>
 		<% if section.links %>
 		<div class="link-section">
 			<% section.links.each_with_index do |link| %>
@@ -88,9 +92,11 @@ work_items: true
 		</div>
 		<% end %>
 		<% if section.gallery_description %>
-		<% section.gallery_description.each_with_index do |gallery_description| %>
+		<div class="article-text">
+			<% section.gallery_description.each_with_index do |gallery_description| %>
 			<h2><%= gallery_description.g_header%></h2>
 			<p><%= gallery_description.g_description%></p>
+		</div>
 		<% end %>
 		<% end %>
 		<% if section.gallery %>

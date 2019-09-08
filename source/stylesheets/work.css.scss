@@ -8,6 +8,8 @@ $secondary: #ffd2d2;
 $mobile: "(max-width: 768px)";
 $desktop: "(min-width: 769px)";
 
+$trans: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
 .work {
 }
 .topper > * {
@@ -22,140 +24,138 @@ $desktop: "(min-width: 769px)";
 }
 .project-list {
 	.project-list-item {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		align-items: center;
-		justify-content: flex-start;
 		margin: 0 auto 250px;
 		max-width: 1027px;
 		@media #{$mobile} {
-			flex-direction: column;
 			margin-bottom: 100px;
 		}
-		/*
-		&:nth-child(3) * {
-			cursor: url(/images/assets/cursor.svg), auto;
-		}
-		*/
-		.thumbnail { 
-			float: left;
-			.wrapper {
-				float: left;
-				max-width: 800px;
+		a {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			align-items: center;
+			@media #{$mobile} {
+				flex-direction: column;
 			}
-			a {
+			.thumbnail { 
 				position: relative;
-				display: inline-block;
-				line-height: 0;
+				.wrapper {
+					max-width: 800px;
+					&:before {
+						content:'';
+						background-color: $secondary;
+						height: 100%;
+						width: 100%;
+						position: absolute;
+						z-index: -1;
+						opacity: .5;
+					}
+				}
 				@media #{$mobile} {
 					margin: 0 0 30px 0;
 				}
 				img {
-					transition: transform .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+					display: block;
+					max-width: 100%;
+					transition: transform .2s $trans;
 				}
-				&:hover {
-					//transform: translate(3px, -3px);
-					img {
-						transform: translate(10px, -10px);
+			}
+			.info {
+				.wrapper {
+					max-width: 320px;
+					margin-right: 30px;
+					position: relative;
+					@media #{$mobile} {
+						margin: 0px;
+						max-width: none;
 					}
-					&:before {
-					}
 				}
-				&:before {
-					content:'';
-					background-color: $secondary;
-					height: 100%;
-					width: 100%;
-					position: absolute;
-					z-index: -1;
-					//transition: transform .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-				}
-			}
-			img {
-				max-width: 100%;
-			}
-
-		}
-		.faux-link {
-			font-size: .75rem;
-			color: $main;
-			transition: all .2s ease-in-out;
-			position: relative;
-			font-family: 'IBM Plex Mono', sans-serif;
-			&:before {
-				content:'';
-				position: absolute;
-				top: 35%;
-				right: -11px;
-				width: 4px;
-				height: 4px;
-				border-left: 1px solid $main;
-				border-bottom: 1px solid $main; 
-				transform: rotate(225deg);
-				will-change: right, transform;
-				transition: right .2s ease, transform .2s ease-in-out;
-			}
-			&:hover {
-				&:before {
-					right: -14px;
-				}
-			}
-		}
-		.info {
-			.wrapper {
-				max-width: 320px;
-				margin-right: 30px;
-				position: relative;
-				float: right;
 				@media #{$mobile} {
 					margin: 0px;
-					max-width: none;
+					width: 100%;
+				}
+				.number {
+					font-size: 11.625rem;
+					font-family: 'IBM Plex Mono', sans-serif;
+					color: $secondary;
+					opacity: .5;
+					z-index: -1;
+				}
+				h3 {
+					color: $p;
+					font-size: .75rem;
+					margin: 0px;
+					bottom: 0px;
+					margin-bottom: 10px;
 				}
 				h2 {
-					transition: color .2s ease-in-out;
+					color: $h;
+					font-size: 2.25rem;
+					margin: 0;
+					margin-bottom: 5px;
+					line-height: 120%;
+					display: inline-block;
+					font-weight: 900;
+					transition: color .2s $trans;
+					@media #{$mobile} {
+						font-size: 8vw;
+					}
 				}
-				a:hover  {
+				.title-head {
+					display: block;
+					position: relative;
+				}
+				.faux-link {
+					font-size: .75rem;
+					color: $main;
+					transition: all .2s ease-in-out;
+					position: relative;
+					font-family: 'IBM Plex Mono', sans-serif;
+					&:before {
+						content:'';
+						position: absolute;
+						top: 35%;
+						right: -11px;
+						width: 4px;
+						height: 4px;
+						border-left: 1px solid $main;
+						border-bottom: 1px solid $main; 
+						transform: rotate(225deg);
+						will-change: right, transform;
+						transition: right .2s $trans;
+					}
+					&:after {
+						content: '';
+						position: absolute;
+						height: 1px;
+						width: 0%;
+						background-color: $main;
+						left: 0;
+						bottom: -3px;
+						transition: width .2s ease-in-out;
+					}
+				}
+			}
+			/*on hover for item*/
+			&:hover {
+				.info {
 					h2 {
 						color: $main;
 					}
+					.faux-link {
+						&:after {
+							width: 100%;
+						}
+						&:before {
+							right: -14px;
+						}
+					}
 				}
-			}
-			@media #{$mobile} {
-				margin: 0px;
-			}
-			a {
-				max-width: 320px;
-			}
-			.number {
-				font-size: 11.625rem;
-				font-family: 'IBM Plex Mono', sans-serif;
-				color: $secondary;
-				opacity: .5;
-				z-index: -1;
-			}
-			h3 {
-				color: $p;
-				font-size: .75rem;
-				margin: 0px;
-				bottom: 0px;
-				margin-bottom: 10px;
-			}
-			h2 {
-				color: $h;
-				font-size: 2.25rem;
-				margin: 0;
-				margin-bottom: 5px;
-				line-height: 120%;
-				display: inline-block;
-				font-weight: 900;
-				@media #{$mobile} {
-					font-size: 8vw;
+				.thumbnail {
+					img {
+						transform: translate(-10px, -10px);
+					}
 				}
-			}
-			.title-head {
-				display: block;
-				position: relative;
 			}
 		}
 		&:nth-child(even) {
@@ -173,6 +173,18 @@ $desktop: "(min-width: 769px)";
 					text-align: right;
 				}
 			}
+			//translates inward for odd ones
+			a {
+				&:nth-child(odd){
+					&:hover{
+						.thumbnail {
+							img {
+								transform: translate(10px, -10px);
+							}
+						}
+					}
+				}
+			}
 		}
 		&:last-child {
 			margin-bottom: 0;
@@ -183,21 +195,6 @@ $desktop: "(min-width: 769px)";
 			}
 		}
 	}
-}
-/*
-.thumbnail.hover .wrapper a { 
-	transform: translate(0px, -3px);
-	box-shadow: 0px 0px 10px 0px rgba(246, 140, 140,0.4) !important;
-	&:before {
-		transform: translate(0px, 3px) scale(.97) !important;
-	}
-}
-*/
-.info.hover h2 {
-	color: $main !important;
-}
-.faux-link.hover {
-	text-decoration: underline;
 }
 .weight {
 	z-index: -1;

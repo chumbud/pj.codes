@@ -1,16 +1,4 @@
 $(document).ready(function() {
-	$('.info').hover(function() {
-		$(this).closest('.project-list-item').find('.thumbnail, .faux-link').addClass('hover');
-	}, function() {
-		$(this).closest('.project-list-item').find('.thumbnail, .faux-link').removeClass('hover');
-	});
-
-	$('.thumbnail .wrapper').hover(function() {
-		$(this).closest('.project-list-item').find('.info, .faux-link').addClass('hover');
-	}, function() {
-		$(this).closest('.project-list-item').find('.info, .faux-link').removeClass('hover');
-	});
-
 	$('.read-more').on('click', function(e) {
 		e.preventDefault();
 		if($('.read-more-section').hasClass('open')) {

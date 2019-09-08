@@ -33,9 +33,8 @@ projects:
     weight: 2
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: Networks focused around pop culture, activism, music, and entertainment.
-    intro: 
     sections:
-        -   text: <h2>What we do</h2><div class="divider"></div><p>Belonging to a small team of designers, we're tasked with transferring the brand voice of VH1 and Logo on-air content to the digital space through its social media and websites. The nature of this work varied heavily from project to project. One project could be creating a full social campaign to publicize an upcoming show or making animated instagram posts for an initiative the network is pushing. Another would be building a <a href="http://www.vh1.com/shows/the-breaks/interactive-map" arget="_blank">web app</a> that viewers could engage with that supplements a show's content. We also have created prototypes of our networks' sites for our product teams to implement more accurate styling to new pages and features.</p><p>Since the type of work we do changes frequently, we're molded to be a sort of in-house agency for our networks with a well-rounded set of skills.</p>
+        -   text: <h2>What we do</h2><div class="divider"></div><p>TBD</p>
         -   gallery_description:
             -   g_header: 2019 Video Music Awards
                 g_description: I had the privilege to work alongside with art director <a href="www.casielkaplan.com">Casiel Kaplan</a> and animator <a href="https://www.florenciamassu.com/">Florencia Massu</a> to create content for all of our social outlets leading up to the 2019 VMAs.
@@ -70,6 +69,21 @@ projects:
         -   image: rpdr-1.jpg
         -   image: rpdr-2.jpg
         -   image: rpdr-3.jpg
+        -   gallery_description:
+            -   g_header: The Breaks
+                g_description: Worked with <a href="http://thesethreewords.net/">Ryan Williams</a> to make an interactive-map for our editorial team that sought to extend the engagement beyond the show for fans to learn more about the history behind the scenes of The Breaks.
+        -   links:
+                -   link: http://www.vh1.com/shows/the-breaks/interactive-map
+                    link_text: See the map
+        -   image: the-breaks-map-1.jpg
+        -   gallery:
+            -   images:
+                    -   image_url: the-breaks-map-2.jpg
+                        image_thumb: thumbnails/the-breaks-map-2.jpg
+                    -   image_url: the-breaks-map-3.jpg
+                        image_thumb: thumbnails/the-breaks-map-3.jpg
+                    -   image_url: the-breaks-map-4.jpg
+                        image_thumb: thumbnails/the-breaks-map-4.jpg
         -   gallery_description:
             -   g_header: Scared Famous
                 g_description: Part of a set of 6 posters made for Scared Famous posted on Instagram to hype the cast and fans for the release of the show.
