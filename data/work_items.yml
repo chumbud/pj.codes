@@ -38,7 +38,7 @@ projects:
         -   text: <h2>What we do</h2><div class="divider"></div><p>Belonging to a small team of designers, we're tasked with transferring the brand voice of VH1 and Logo on-air content to the digital space through its social media and websites. The nature of this work varied heavily from project to project. One project could be creating a full social campaign to publicize an upcoming show or making animated instagram posts for an initiative the network is pushing. Another would be building a <a href="http://www.vh1.com/shows/the-breaks/interactive-map" arget="_blank">web app</a> that viewers could engage with that supplements a show's content. We also have created prototypes of our networks' sites for our product teams to implement more accurate styling to new pages and features.</p><p>Since the type of work we do changes frequently, we're molded to be a sort of in-house agency for our networks with a well-rounded set of skills.</p>
         -   gallery_description:
             -   g_header: 2019 Video Music Awards
-                g_description: I had the privilege to work along side with art director <a href="www.casielkaplan.com">Casiel Kaplan</a> and animator <a href="https://www.florenciamassu.com/">Florencia Massu</a> to create content for all of our social outlets leading up to the 2019 VMAs.
+                g_description: I had the privilege to work alongside with art director <a href="www.casielkaplan.com">Casiel Kaplan</a> and animator <a href="https://www.florenciamassu.com/">Florencia Massu</a> to create content for all of our social outlets leading up to the 2019 VMAs.
         -   video_gallery:
             -    videos:
                     -   video_url: videos/vma-push.mp4
@@ -47,7 +47,7 @@ projects:
                     -   video_url: videos/vma-coundown-6days.mp4
                     -   video_url: videos/vma-billie-win.mp4
                     -   video_url: videos/vma-queenl.mp4
-                    -   video_url: videos/vma-power-hour.mp4
+                    -   video_url: videos/vma-pre-show.mp4
                     -   video_url: videos/vma-power-hour.mp4
                     -   video_url: videos/vma-coundown.mp4
         -   gallery:

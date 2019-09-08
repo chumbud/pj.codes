@@ -224,7 +224,6 @@ $tablet: "(max-width: 768px)";
 		}
 	}
 	.article-gallery {
-		margin-top: 10px;
 		h2 {
 			width: 100%;
 			margin: 0 auto;
@@ -235,14 +234,14 @@ $tablet: "(max-width: 768px)";
 			display: flex;
 			flex-direction: row;
 			flex-flow: row wrap;
-			justify-content: center;
-			cursor: pointer;
+			justify-content: space-around;
 			.article-gallery-image {
-				width: calc(100% / 4);
+				width: calc((100% / 3) - .4rem);
+				margin-bottom: .4rem;
+				cursor: pointer;
 				img {
 					-webkit-backface-visibility: hidden;
 					position: relative;
-					padding: 10px;
 					width: 100%;
 					transition: opacity .2s ease-in-out;
 					&:hover {
@@ -251,10 +250,9 @@ $tablet: "(max-width: 768px)";
 				}
 			}
 			&.video {
-				justify-content: space-between;
 				.article-video {
 					width: calc(33% - .1rem);
-					margin-bottom: .1rem;
+					margin-bottom: .2rem;
 					video {
 						width: 100%;
 					}
