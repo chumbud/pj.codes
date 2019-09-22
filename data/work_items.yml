@@ -34,7 +34,7 @@ projects:
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: Networks focused around pop culture, activism, music, and entertainment.
     sections:
-        -   text: <h2>What we do</h2><div class="divider"></div><p>TBD</p>
+        -   text: <h2>What we do</h2><div class="divider"></div><p>I belong to a small team designers and animators that work with our channels and the different teams within them to create content for digital spaces. During my time on the digital team, I've worked on a range of projects from designing for social campaigns, to animation packages, to assisting on product sprints. Everything below is a peek into some of the work I've been a part of.</p>
         -   gallery_description:
             -   g_header: 2019 Video Music Awards
                 g_description: I had the privilege to work alongside with art director <a href="www.casielkaplan.com">Casiel Kaplan</a> and animator <a href="https://www.florenciamassu.com/">Florencia Massu</a> to create content for all of our social outlets leading up to the 2019 VMAs.
@@ -71,7 +71,7 @@ projects:
         -   image: rpdr-3.jpg
         -   gallery_description:
             -   g_header: The Breaks
-                g_description: Worked with <a href="http://thesethreewords.net/">Ryan Williams</a> to make an interactive-map for our editorial team that sought to extend the engagement beyond the show for fans to learn more about the history behind the scenes of The Breaks.
+                g_description: Worked with <a href="http://thesethreewords.net/">Ryan Williams</a> to develop and design an interactive map for our editorial team. They sought to extend the engagement beyond the show for fans to learn more about the history behind the scenes of The Breaks.
         -   links:
                 -   link: http://www.vh1.com/shows/the-breaks/interactive-map
                     link_text: See the map
