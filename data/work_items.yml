@@ -4,15 +4,15 @@ projects:
     alias: pygmy
     subhead: Product
     weight: 1
-    roles: Research, Design
+    roles: Research, Design, Development
     tiny_description: A lightweight habit-forming journal for your new tab page.
     intro: pygmy is aimed at those who have always wanted to keep a journal, but have trouble starting and maintaining the habit. My goals were figuring out the underlying reasons for this problem and clarify the motivations behind the desire to keep a journal.
-    link: https://www.figma.com/proto/1YKSxmPHVudSQ8xU9ywXak/pygmy-feature-walkthrough?node-id=126%3A977&viewport=640%2C287%2C0.14114706218242645&scaling=min-zoom
-    link_text: Walkthrough
-    supplement_link: https://www.figma.com/file/O30ofmvnIhV8RxQL3a4BpzyS/pygmy?node-id=0%3A1
-    supplement_link_text: Figma Project
+    link: http://pj.codes:8080/calendar.html
+    link_text: Live Demo
+    supplement_link: https://www.figma.com/proto/1YKSxmPHVudSQ8xU9ywXak/pygmy-feature-walkthrough?node-id=126%3A977&viewport=640%2C287%2C0.14114706218242645&scaling=min-zoom
+    supplement_link_text: Walkthrough
     sections: 
-        -   text: <h2>Background</h2><div class="divider"></div><p>A journal has always been a simple yet powerful tool to gain a better sense of one's life. When I decided to try keeping one, I always ran into the problem of commitment issues and anxiety. Struggling with the thought of whether or not what I was writing was worth being an entry for the day. I would also frequently forget to write that day and then have to write up backlogs of entries to get out of some odd self-imposed diary debt.</p>
+        -   text: <h2>Background</h2><div class="divider"></div><p>A journal has always been a simple yet powerful tool to gain a better sense of one's life. When I decided to try keeping one, I always ran into the problem of commitment issues and anxiety. Struggling with the thought of whether or not what I was writing was worth being an entry for the day. I would also frequently forget to write that day and then have to write up backlogs of entries to get out of some odd self-imposed "diary debt".</p>
         -   header: <h4>Research</h4>
             breakout: research-breakout.jpg
             breakout_text: Many people tend to use pen and paper, others might just use their iPhone notes app. A private tumblr blog or twitter could be a journal. At the core of it, journaling is just writing. Many journaling apps suffer from feature-creeping on top of such a simple concept. From what I found, I didn't find an adequately executed solution for my needs. I figured this had a space in the landscape. 
@@ -24,8 +24,7 @@ projects:
             breakout: pygmy-sketches.jpg
             breakout_text: After gathering some data and sitting with it for a bit, I went ahead and sketched some higher-level flows. Which then followed a cycle of ideation and sketching until I was comfortable with a design to flesh out. <br><br>Some of my ideas along with the most recent execution can be found <a href="https://www.figma.com/file/O30ofmvnIhV8RxQL3a4BpzyS/beachside?node-id=0%3A1" target="_blank">here</a>.
         -   text: <h2>Aesthetic</h2><p>I wanted to have fun with this project and introduce color in meaningful and intentional ways, all while keeping it subtle enough to reduce distraction.<br><br>Type and iconography contrast and legibility was a high priority. In addition, accessibility options for text size and further contrast are provided to ensure a pleasurable experience for everyone.</p>
-        -   text: <h2>Development</h2><p>I consulted a few developers I'm close friends with and asked about options for tech I could use for this project. I don't expect to create a fully finished product, however, I'm giving it shot to see how far I can get!<br><br>To account for my lack of back-end knowledge, I decided to choose <a href="http://hood.ie/" target="_blank">Hoodie</a> as my solution for offline storage needs without needing to build a backend. React was an easy choice to decide to use given Pygmy's state-driven structure.</p>
-        -   text: <h2>Next Steps</h2><p>Pygmy is currently in a place now where rough implementation is going underway to get at the basic functionality and eventually become a workable MVP for testing purposes.</p>
+        -   text: <h2>Special Thanks</h2><p>pygmy is a solo project, but I honestly would have not reached the progress I've achieved without <a href="http://jefftao.com/">Jeff Tao</a> who consulted on my various development hiccups and <a href="https://twitter.com/xlutiff">Tiffany Lu</a> who assisted with copywriting and feature suggestions.</p>
   #MTV/VH1/Logo
   - name: MTV & VH1 Digital
     alias: mtv-vh1
@@ -102,7 +101,7 @@ projects:
     weight: 3
     roles: Design
     contributors:
-        -   name: Jeffrey Tao
+        -   name: Jeff Tao
             portfolio: http://jefftao.com/
         -   name: Yujin Ariza
             portfolio: http://yujinariza.com/
@@ -218,7 +217,7 @@ projects:
     contributors:
         -   name: Maxwell Huang-Hobbs
             portfolio: http://huang-hobbs.co/
-        -   name: Jeffrey Tao
+        -   name: Jeff Tao
             portfolio: http://jefftao.com/
         -   name: William Saulnier
             portfolio: http://williamsaulnier.com/
