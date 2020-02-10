@@ -43,7 +43,7 @@ $trans: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 					max-width: 800px;
 					&:before {
 						content:'';
-						background-color: $secondary;
+						background-color: #c9ddff;
 						height: 100%;
 						width: 100%;
 						position: absolute;
@@ -153,7 +153,7 @@ $trans: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 				}
 				.thumbnail {
 					img {
-						transform: translate(-10px, -10px);
+						transform: scale(1.025);
 					}
 				}
 			}
@@ -179,7 +179,7 @@ $trans: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 					&:hover{
 						.thumbnail {
 							img {
-								transform: translate(10px, -10px);
+								transform: scale(1.025);
 							}
 						}
 					}

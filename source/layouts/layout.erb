@@ -39,17 +39,20 @@
 		gtag('config', 'UA-54481131-1');
 	</script>
 	<% end %>
-
 	<%= stylesheet_link_tag "base", "about", "work", "article", "lity.min", "https://unpkg.com/aos@2.3.1/dist/aos.css", "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" %>
-	<%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js", "functions", "lity.min", "https://unpkg.com/aos@2.3.1/dist/aos.js"%>
+	<%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js", "functions", "lity.min", "particles.min.js", "https://unpkg.com/aos@2.3.1/dist/aos.js"%>
 	<script type="text/javascript">
 		document.addEventListener('DOMContentLoaded', function() {
 			AOS.init({
 				disable: window.innerWidth < 769
 			});
+			particlesJS.load('particles-js', '/javascripts/particlesjs-config.json', function() {
+				console.log('callback - particles.js config loaded');
+			});
 		});
 	</script>
 </head>
+<div id="particles-js"></div>
 <body>
 	<div class="container">
 		<!--<h3 class="home name"><%= link_to("PJ Rosa", "/") %><div class="right"><%= link_to("Work", "/") %><%= link_to("Journal", "/journal") %></div></h3>-->
