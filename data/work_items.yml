@@ -6,7 +6,7 @@ projects:
     weight: 1
     roles: Research, Design, Development
     tiny_description: A lightweight habit-forming journal for your new tab page.
-    intro: pygmy is aimed at those who have always wanted to keep a journal, but have trouble starting and maintaining the habit. My goals were figuring out the underlying reasons for this problem and clarify the motivations behind the desire to keep a journal.
+    intro: pygmy is aimed at those who have always wanted to keep a journal, but have trouble starting and maintaining the habit. This was a self-driven project of mine. I was responsible for all user research/testing, design and development.
     link: http://pj.codes:8080/calendar.html
     link_text: Live Demo
     supplement_link: https://www.figma.com/proto/1YKSxmPHVudSQ8xU9ywXak/pygmy-feature-walkthrough?node-id=126%3A977&viewport=640%2C287%2C0.14114706218242645&scaling=min-zoom
@@ -24,7 +24,7 @@ projects:
             breakout: pygmy-sketches.jpg
             breakout_text: After gathering some data and sitting with it for a bit, I went ahead and sketched some higher-level flows. Which then followed a cycle of ideation and sketching until I was comfortable with a design to flesh out. <br><br>Some of my ideas along with the most recent execution can be found <a href="https://www.figma.com/file/O30ofmvnIhV8RxQL3a4BpzyS/beachside?node-id=0%3A1" target="_blank">here</a>.
         -   text: <h2>Aesthetic</h2><p>I wanted to have fun with this project and introduce color in meaningful and intentional ways, all while keeping it subtle enough to reduce distraction.<br><br>Type and iconography contrast and legibility was a high priority. In addition, accessibility options for text size and further contrast are provided to ensure a pleasurable experience for everyone.</p>
-        -   text: <h2>Special Thanks</h2><p>pygmy is a solo project, but I honestly would have not reached the progress I've achieved without <a href="http://jefftao.com/">Jeff Tao</a> who consulted on my various development hiccups and <a href="https://twitter.com/xlutiff">Tiffany Lu</a> who assisted with copywriting and feature suggestions.</p>
+        -   text: <h2>Special Thanks</h2><p>pygmy is a solo project, but I honestly would have not reached the progress I've achieved without <a href="http://jefftao.com/">Jeff Tao</a> who consulted on my various development hiccups and <a href="https://twitter.com/xlutiff">Tiffany Lu</a> who assisted with copywriting.</p>
   #MTV/VH1/Logo
   - name: MTV & VH1 Digital
     alias: mtv-vh1
@@ -108,7 +108,7 @@ projects:
         -   name: Maxwell Huang-Hobbs
             portfolio: http://huang-hobbs.co/
     tiny_description: A structured thread based messaging client made for organizing and accessing conversations.
-    intro: Decorum is a revisited look into structured, hierarchical communication for those looking to easily, circulate, retrieve and archive information. Think the tree-structure of a forum with the familiarity of a chat client.
+    intro: Decorum is a revisited look into structured, hierarchical communication for those looking to easily, circulate, retrieve and archive information. Think the tree-structure of a forum with the familiarity of a chat client. I'm responsible for all design and research while working with developers building the product.
     link: https://www.figma.com/proto/LNrJ52g66xdgstyOYqWcKk2z/Decorum?node-id=74%3A3471&scaling=contain
     link_text: See On Figma
     sections:
@@ -140,7 +140,7 @@ projects:
     weight: 4
     roles: Brand Design, Publication Design, Web Design 
     tiny_description: Rutgers University's literary magazine that publishes a collection of curated and reviewed written and visual work contributed by the Rutgers student body. 
-    intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be bound and reproduced in a magazine.
+    intro: Twice a year, the Anthologist collected a rolling admission of work to publish at the end of every semester. Every meeting, members gathered to carefully review all the work students submitted. The Anthologist accepts work not limited to written pieces, but really any form of self expression that can be bound and reproduced in a magazine. I was responsible for all design, both print and web.
     sections:
         -   text: <p>Joining the Anthologist allowed me the privilege to work with many talented writers and artists. Taking on the Anthologist meant creating promotional material, creating and maintaining the site as well as designing the magazine for publishing every semester.</p>
             image: anthologist-release.jpg
@@ -168,7 +168,7 @@ projects:
     tiny_description: The bi-yearly Rutgers hackathon focused on promoting education, inclusivity and community.
     intro: Rutgers University's hackathon held every semester. The event holds over 1000 students from around the nation, giving students 24 hours to build whatever they want with the skills they bring.
     sections:
-        -   text: <p>I had the responsibility of recreating the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. Every semester the marketing team and I collaborated on the theme of the semester and built a look and feel to accompany it.</p>
+        -   text: <p>I had the responsibility of reworking the visual identity our hackathon. This included that I created the design of the website, logo, stickers, t-shirts and everything else that faced the hacker as they experienced HackRU. Every semester the marketing team and I collaborated on the theme of the semester and built a look and feel to accompany it.</p>
             image: hackru-peoples.jpg
         -   links:
                 -   link: /sites/hackru-fall-2016/html/index.html
@@ -222,7 +222,7 @@ projects:
         -   name: William Saulnier
             portfolio: http://williamsaulnier.com/
     tiny_description: A lightweight browser agnostic dashboard for your new-tab page. Made during UPenn's 36-hour hackathon.
-    intro: A modular, grid based homepage consisting of widgets that are highly customizable. Created with a team of two other developers at the 36-hour hackathon, PennApps Fall 2015.
+    intro: A modular, grid based homepage consisting of widgets that are highly customizable. Created with a team of two other developers at the 36-hour hackathon, PennApps Fall 2015. I worked with two other developers while I designed the product.
     sections:
         -   image: anchorage-widgets.png
         -   text: <p>By the end of the hackathon, my team and I had delivered a prototype with a few functional widgets and working customization functions. The prototype allowed for color customizability of widget UI and custom backgrounds. The widgets themselves also had the ability to be placed anywhere within a grid based system that organized the placement of the widgets. Widgets could follow a 2x2, 2x1 or 1x1 size within the grid system, these units being user specified as well.</p><br><br>
