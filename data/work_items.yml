@@ -33,10 +33,27 @@ projects:
     roles: Digital Design, Animation, Web Design, Product Design
     tiny_description: Networks focused around pop culture, activism, music, and entertainment.
     sections:
-        -   text: <h2>What we do</h2><div class="divider"></div><p>I belong to a small team designers and animators that work with our channels and the different teams within them to create content for digital spaces. During my time on the digital team, I've worked on a range of projects from designing for social campaigns, to animation packages, to assisting on product sprints. Everything below is a peek into some of the work I've been a part of.</p>
+        -   text: <h2>What we do</h2><div class="divider"></div><p>I belong to a small team designers and animators that work with our channels and the different teams within them to create content for digital spaces. During my time on the digital team, I've worked on an expansive list of projects ranging from social campaigns, to animation packages, to assisting on product sprints and building websites. Everything below is a peek into some of the work I've been a part of.</p>
         -   gallery_description:
-            -   g_header: 2019 Video Music Awards
-                g_description: I had the privilege to work alongside with art director <a href="www.casielkaplan.com">Casiel Kaplan</a> and animator <a href="https://www.florenciamassu.com/">Florencia Massu</a> to create content for all of our social outlets leading up to the 2019 VMAs.
+            -   g_header: Shows
+                g_description: Social media and content design for our app platforms are central to the work I contribute. Every season of Love & Hip Hop or RuPaul's Drag Race, I'm tasked with translating the on-air design package on to our digital spaces. With the directions of my art directors, we regularly adapted show packages for all our digital touchpoints.
+        -   image: rpdr-1.jpg
+        -   image: rpdr-2.jpg
+        -   image: rpdr-3.jpg
+        -   image: vh1-general-key-art.jpg
+        -   image: logo-summer-facebook.jpg
+        -   gallery:
+            -   images:
+                    -   image_url: logo-spring-7.jpg
+                        image_thumb: thumbnails/logo-spring-avatar.jpg
+                    -   image_url: logo-fall-social-1.jpg
+                        image_thumb: thumbnails/logo-fall-avatar.jpg
+                    -   image_url: winter-facebook-logo.jpg
+                        image_thumb: thumbnails/logo-winter-avatar.jpg
+        -   image: logo-valentines-day-1_1.jpg
+        -   gallery_description:
+            -   g_header: Events
+                g_description: Events are another important aspect of our networks and the VMA's are the biggest we have to offer. For the 2019, I had to figure out how the VMA's were going to look on social media and other platforms while also keeping in line with the overall identity of the event. I had the privilege to work alongside with art director <a href="www.casielkaplan.com">Casiel Kaplan</a> and animator <a href="https://www.florenciamassu.com/">Florencia Massu</a> to create content for all of our social outlets leading up to the 2019 VMAs.
         -   video_gallery:
             -    videos:
                     -   video_url: videos/vma-push.mp4
@@ -63,13 +80,7 @@ projects:
                     -   image_url: vma-wallpaper-6.jpg
                         image_thumb: thumbnails/vma-wallpaper-6.jpg
         -   gallery_description:
-            -   g_header: RuPaul's Drag Race
-                g_description: With the wonderful direction of <a href="https://www.ryanbernis.com/">Ryan Bernis</a>, together we made all of the digital facing assets for RuPaul's Drag Race.
-        -   image: rpdr-1.jpg
-        -   image: rpdr-2.jpg
-        -   image: rpdr-3.jpg
-        -   gallery_description:
-            -   g_header: The Breaks
+            -   g_header: The Breaks Interactive Map
                 g_description: Worked with <a href="http://thesethreewords.net/">Ryan Williams</a> to develop and design an interactive map for our editorial team. They sought to extend the engagement beyond the show for fans to learn more about the history behind the scenes of The Breaks.
         -   links:
                 -   link: http://www.vh1.com/shows/the-breaks/interactive-map
@@ -84,16 +95,13 @@ projects:
                     -   image_url: the-breaks-map-4.jpg
                         image_thumb: thumbnails/the-breaks-map-4.jpg
         -   gallery_description:
-            -   g_header: Scared Famous
-                g_description: Part of a set of 6 posters made for Scared Famous posted on Instagram to hype the cast and fans for the release of the show.
-        -   gallery:
-            -    images:
-                    -   image_url: scared-famous-poster-alaska.jpg
-                        image_thumb: thumbnails/scared-famous-poster-alaska.jpg
-                    -   image_url: scared-famous-poster-don.jpg
-                        image_thumb: thumbnails/scared-famous-poster-don.jpg
-                    -   image_url: scared-famous-poster-erica.jpg
-                        image_thumb: thumbnails/scared-famous-poster-erica.jpg
+            -   g_header: WORK — ViacomCBS Creatives Exhibit 
+                g_description: A work-in-progross showcase of work from ViacomCBS employees challenged to create around the concept of the day, date, and time of their birth. I volunteered and spearheaded an initiative to design and develop a site to help legitimize this first-time event. This way participants and patrons can refer back to the work showcase post-show.
+        -   links:
+                -   link: https://work-exhibit.glitch.me/
+                    link_text: See the site
+        -   image: work-animated-full.gif
+
   #Decorum
   - name: Decorum
     alias: decorum
